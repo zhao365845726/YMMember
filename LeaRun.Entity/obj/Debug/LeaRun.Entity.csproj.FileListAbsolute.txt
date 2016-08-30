@@ -1,0 +1,186 @@
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Entity\bin\Debug\LeaRun.Entity.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Entity\bin\Debug\LeaRun.Entity.pdb
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Entity\bin\Debug\EntityFramework.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Entity\bin\Debug\LeaRun.DataAccess.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Entity\bin\Debug\LeaRun.Utilities.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Entity\bin\Debug\log4net.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Entity\bin\Debug\Oracle.DataAccess.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Entity\bin\Debug\MySql.Data.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Entity\bin\Debug\System.Data.SQLite.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Entity\bin\Debug\SharpZipLib.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Entity\bin\Debug\Newtonsoft.Json.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Entity\bin\Debug\LeaRun.DataAccess.pdb
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Entity\bin\Debug\LeaRun.Utilities.pdb
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Entity\obj\Debug\LeaRun.Entity.csprojResolveAssemblyReference.cache
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Entity\obj\Debug\LeaRun.Entity.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Entity\obj\Debug\LeaRun.Entity.pdb
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Entity\bin\Debug\LeaRun.Entity.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Entity\bin\Debug\LeaRun.Entity.pdb
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Entity\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Entity\bin\Debug\LeaRun.DataAccess.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Entity\bin\Debug\LeaRun.Utilities.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Entity\bin\Debug\log4net.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Entity\bin\Debug\Oracle.DataAccess.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Entity\bin\Debug\MySql.Data.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Entity\bin\Debug\System.Data.SQLite.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Entity\bin\Debug\SharpZipLib.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Entity\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Entity\bin\Debug\LeaRun.DataAccess.pdb
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Entity\bin\Debug\LeaRun.Utilities.pdb
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Entity\obj\Debug\LeaRun.Entity.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Entity\obj\Debug\LeaRun.Entity.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Entity\obj\Debug\LeaRun.Entity.pdb
+F:\YMStudioWorking\YMTechnology\LeaRun.Entity\bin\Debug\LeaRun.Entity.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Entity\bin\Debug\LeaRun.Entity.pdb
+F:\YMStudioWorking\YMTechnology\LeaRun.Entity\bin\Debug\EntityFramework.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Entity\bin\Debug\LeaRun.DataAccess.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Entity\bin\Debug\LeaRun.Utilities.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Entity\bin\Debug\log4net.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Entity\bin\Debug\Oracle.DataAccess.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Entity\bin\Debug\MySql.Data.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Entity\bin\Debug\System.Data.SQLite.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Entity\bin\Debug\SharpZipLib.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Entity\bin\Debug\Newtonsoft.Json.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Entity\bin\Debug\LeaRun.DataAccess.pdb
+F:\YMStudioWorking\YMTechnology\LeaRun.Entity\bin\Debug\LeaRun.Utilities.pdb
+F:\YMStudioWorking\YMTechnology\LeaRun.Entity\obj\Debug\LeaRun.Entity.csprojResolveAssemblyReference.cache
+F:\YMStudioWorking\YMTechnology\LeaRun.Entity\obj\Debug\LeaRun.Entity.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Entity\obj\Debug\LeaRun.Entity.pdb
+F:\YMStudioWorking\YMMember\LeaRun.Entity\bin\Debug\LeaRun.Entity.dll
+F:\YMStudioWorking\YMMember\LeaRun.Entity\bin\Debug\LeaRun.Entity.pdb
+F:\YMStudioWorking\YMMember\LeaRun.Entity\bin\Debug\EntityFramework.dll
+F:\YMStudioWorking\YMMember\LeaRun.Entity\bin\Debug\LeaRun.DataAccess.dll
+F:\YMStudioWorking\YMMember\LeaRun.Entity\bin\Debug\LeaRun.Utilities.dll
+F:\YMStudioWorking\YMMember\LeaRun.Entity\bin\Debug\log4net.dll
+F:\YMStudioWorking\YMMember\LeaRun.Entity\bin\Debug\Oracle.DataAccess.dll
+F:\YMStudioWorking\YMMember\LeaRun.Entity\bin\Debug\MySql.Data.dll
+F:\YMStudioWorking\YMMember\LeaRun.Entity\bin\Debug\System.Data.SQLite.dll
+F:\YMStudioWorking\YMMember\LeaRun.Entity\bin\Debug\SharpZipLib.dll
+F:\YMStudioWorking\YMMember\LeaRun.Entity\bin\Debug\Newtonsoft.Json.dll
+F:\YMStudioWorking\YMMember\LeaRun.Entity\bin\Debug\LeaRun.DataAccess.pdb
+F:\YMStudioWorking\YMMember\LeaRun.Entity\bin\Debug\LeaRun.Utilities.pdb
+F:\YMStudioWorking\YMMember\LeaRun.Entity\obj\Debug\LeaRun.Entity.csprojResolveAssemblyReference.cache
+F:\YMStudioWorking\YMMember\LeaRun.Entity\obj\Debug\LeaRun.Entity.dll
+F:\YMStudioWorking\YMMember\LeaRun.Entity\obj\Debug\LeaRun.Entity.pdb
+F:\YMStudioWorking\YMMember\LeaRun.Entity\bin\Debug\System.Web.Mvc.dll
+F:\YMStudioWorking\YMMember\LeaRun.Entity\bin\Debug\System.Web.Razor.dll
+F:\YMStudioWorking\YMMember\LeaRun.Entity\bin\Debug\System.Web.WebPages.Razor.dll
+F:\YMStudioWorking\YMMember\LeaRun.Entity\bin\Debug\System.Web.WebPages.dll
+F:\YMStudioWorking\YMMember\LeaRun.Entity\bin\Debug\Microsoft.Web.Infrastructure.dll
+F:\YMStudioWorking\YMMember\LeaRun.Entity\bin\Debug\System.Web.WebPages.Deployment.dll
+F:\YMStudioWorking\YMMember\LeaRun.Entity\bin\Debug\System.Web.Mvc.xml
+F:\YMStudioWorking\YMMember\LeaRun.Entity\bin\Debug\System.Web.Razor.xml
+F:\YMStudioWorking\YMMember\LeaRun.Entity\bin\Debug\System.Web.WebPages.Razor.xml
+F:\YMStudioWorking\YMMember\LeaRun.Entity\bin\Debug\System.Web.WebPages.xml
+F:\YMStudioWorking\YMMember\LeaRun.Entity\bin\Debug\Microsoft.Web.Infrastructure.xml
+F:\YMStudioWorking\YMMember\LeaRun.Entity\bin\Debug\System.Web.WebPages.Deployment.xml
+F:\YMStudioWorking\YMMember\LeaRun.Entity\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\bin\Debug\LeaRun.Entity.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\bin\Debug\LeaRun.Entity.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\bin\Debug\EntityFramework.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\bin\Debug\LeaRun.DataAccess.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\bin\Debug\LeaRun.Utilities.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\bin\Debug\System.Web.Mvc.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\bin\Debug\log4net.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\bin\Debug\Oracle.DataAccess.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\bin\Debug\MySql.Data.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\bin\Debug\System.Data.SQLite.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\bin\Debug\SharpZipLib.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\bin\Debug\Newtonsoft.Json.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\bin\Debug\System.Web.Razor.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\bin\Debug\System.Web.WebPages.Razor.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\bin\Debug\System.Web.WebPages.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\bin\Debug\Microsoft.Web.Infrastructure.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\bin\Debug\System.Web.WebPages.Deployment.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\bin\Debug\LeaRun.DataAccess.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\bin\Debug\LeaRun.Utilities.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\bin\Debug\System.Web.Mvc.xml
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\bin\Debug\System.Web.Razor.xml
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\bin\Debug\System.Web.WebPages.Razor.xml
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\bin\Debug\System.Web.WebPages.xml
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\bin\Debug\Microsoft.Web.Infrastructure.xml
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\bin\Debug\System.Web.WebPages.Deployment.xml
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\obj\Debug\LeaRun.Entity.csprojResolveAssemblyReference.cache
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\obj\Debug\LeaRun.Entity.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Entity\obj\Debug\LeaRun.Entity.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\bin\Debug\LeaRun.Entity.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\bin\Debug\LeaRun.Entity.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\bin\Debug\EntityFramework.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\bin\Debug\LeaRun.DataAccess.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\bin\Debug\LeaRun.Utilities.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\bin\Debug\System.Web.Mvc.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\bin\Debug\log4net.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\bin\Debug\Oracle.DataAccess.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\bin\Debug\MySql.Data.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\bin\Debug\System.Data.SQLite.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\bin\Debug\SharpZipLib.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\bin\Debug\Newtonsoft.Json.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\bin\Debug\System.Web.Razor.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\bin\Debug\System.Web.WebPages.Razor.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\bin\Debug\System.Web.WebPages.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\bin\Debug\Microsoft.Web.Infrastructure.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\bin\Debug\System.Web.WebPages.Deployment.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\bin\Debug\LeaRun.DataAccess.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\bin\Debug\LeaRun.Utilities.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\bin\Debug\System.Web.Mvc.xml
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\bin\Debug\System.Web.Razor.xml
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\bin\Debug\System.Web.WebPages.Razor.xml
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\bin\Debug\System.Web.WebPages.xml
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\bin\Debug\Microsoft.Web.Infrastructure.xml
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\bin\Debug\System.Web.WebPages.Deployment.xml
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\obj\Debug\LeaRun.Entity.csprojResolveAssemblyReference.cache
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\obj\Debug\LeaRun.Entity.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Entity\obj\Debug\LeaRun.Entity.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Entity\bin\Debug\LeaRun.Entity.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Entity\bin\Debug\LeaRun.Entity.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Entity\bin\Debug\EntityFramework.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Entity\bin\Debug\LeaRun.DataAccess.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Entity\bin\Debug\LeaRun.Utilities.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Entity\bin\Debug\log4net.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Entity\bin\Debug\Oracle.DataAccess.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Entity\bin\Debug\MySql.Data.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Entity\bin\Debug\System.Data.SQLite.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Entity\bin\Debug\SharpZipLib.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Entity\bin\Debug\Newtonsoft.Json.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Entity\bin\Debug\LeaRun.DataAccess.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Entity\bin\Debug\LeaRun.Utilities.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Entity\obj\Debug\LeaRun.Entity.csprojResolveAssemblyReference.cache
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Entity\obj\Debug\LeaRun.Entity.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Entity\obj\Debug\LeaRun.Entity.pdb
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\LeaRun.Entity.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\LeaRun.Entity.pdb
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\EntityFramework.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\LeaRun.DataAccess.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\LeaRun.Utilities.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\log4net.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\Oracle.DataAccess.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\MySql.Data.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\System.Data.SQLite.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\SharpZipLib.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\Newtonsoft.Json.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\LeaRun.DataAccess.pdb
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\LeaRun.Utilities.pdb
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\obj\Debug\LeaRun.Entity.csprojResolveAssemblyReference.cache
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\obj\Debug\LeaRun.Entity.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\obj\Debug\LeaRun.Entity.pdb
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\LeaRun.Entity.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\LeaRun.Entity.pdb
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\EntityFramework.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\LeaRun.DataAccess.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\LeaRun.Utilities.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\System.Web.Mvc.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\log4net.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\Oracle.DataAccess.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\MySql.Data.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\System.Data.SQLite.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\SharpZipLib.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\Newtonsoft.Json.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\LeaRun.DataAccess.pdb
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\LeaRun.Utilities.pdb
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\System.Web.Mvc.xml
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\obj\Debug\LeaRun.Entity.csprojResolveAssemblyReference.cache
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\obj\Debug\LeaRun.Entity.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Entity\obj\Debug\LeaRun.Entity.pdb

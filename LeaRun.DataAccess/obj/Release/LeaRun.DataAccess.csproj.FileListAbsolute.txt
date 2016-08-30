@@ -1,0 +1,72 @@
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.DataAccess\bin\Release\LeaRun.DataAccess.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.DataAccess\bin\Release\LeaRun.DataAccess.pdb
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.DataAccess\bin\Release\EntityFramework.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.DataAccess\bin\Release\log4net.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.DataAccess\bin\Release\MySql.Data.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.DataAccess\bin\Release\Oracle.DataAccess.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.DataAccess\bin\Release\System.Data.SQLite.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.DataAccess\obj\Release\LeaRun.DataAccess.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.DataAccess\obj\Release\LeaRun.DataAccess.pdb
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.DataAccess\bin\Release\LeaRun.Cache.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.DataAccess\bin\Release\LeaRun.Cache.pdb
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.DataAccess\obj\Release\LeaRun.DataAccess.csprojResolveAssemblyReference.cache
+F:\YMStudioWorking\YMTechnology\LeaRun.DataAccess\bin\Release\LeaRun.DataAccess.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.DataAccess\bin\Release\LeaRun.DataAccess.pdb
+F:\YMStudioWorking\YMTechnology\LeaRun.DataAccess\bin\Release\EntityFramework.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.DataAccess\bin\Release\LeaRun.Cache.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.DataAccess\bin\Release\log4net.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.DataAccess\bin\Release\MySql.Data.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.DataAccess\bin\Release\Oracle.DataAccess.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.DataAccess\bin\Release\System.Data.SQLite.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.DataAccess\bin\Release\LeaRun.Cache.pdb
+F:\YMStudioWorking\YMTechnology\LeaRun.DataAccess\obj\Release\LeaRun.DataAccess.csprojResolveAssemblyReference.cache
+F:\YMStudioWorking\YMTechnology\LeaRun.DataAccess\obj\Release\LeaRun.DataAccess.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.DataAccess\obj\Release\LeaRun.DataAccess.pdb
+F:\YMStudioWorking\YMMember\LeaRun.DataAccess\bin\Release\LeaRun.DataAccess.dll
+F:\YMStudioWorking\YMMember\LeaRun.DataAccess\bin\Release\LeaRun.DataAccess.pdb
+F:\YMStudioWorking\YMMember\LeaRun.DataAccess\bin\Release\EntityFramework.dll
+F:\YMStudioWorking\YMMember\LeaRun.DataAccess\bin\Release\LeaRun.Cache.dll
+F:\YMStudioWorking\YMMember\LeaRun.DataAccess\bin\Release\log4net.dll
+F:\YMStudioWorking\YMMember\LeaRun.DataAccess\bin\Release\MySql.Data.dll
+F:\YMStudioWorking\YMMember\LeaRun.DataAccess\bin\Release\Oracle.DataAccess.dll
+F:\YMStudioWorking\YMMember\LeaRun.DataAccess\bin\Release\System.Data.SQLite.dll
+F:\YMStudioWorking\YMMember\LeaRun.DataAccess\bin\Release\LeaRun.Cache.pdb
+F:\YMStudioWorking\YMMember\LeaRun.DataAccess\obj\Release\LeaRun.DataAccess.csprojResolveAssemblyReference.cache
+F:\YMStudioWorking\YMMember\LeaRun.DataAccess\obj\Release\LeaRun.DataAccess.dll
+F:\YMStudioWorking\YMMember\LeaRun.DataAccess\obj\Release\LeaRun.DataAccess.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.DataAccess\bin\Release\LeaRun.DataAccess.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.DataAccess\bin\Release\LeaRun.DataAccess.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.DataAccess\bin\Release\EntityFramework.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.DataAccess\bin\Release\LeaRun.Cache.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.DataAccess\bin\Release\log4net.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.DataAccess\bin\Release\MySql.Data.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.DataAccess\bin\Release\Oracle.DataAccess.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.DataAccess\bin\Release\System.Data.SQLite.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.DataAccess\bin\Release\LeaRun.Cache.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.DataAccess\obj\Release\LeaRun.DataAccess.csprojResolveAssemblyReference.cache
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.DataAccess\obj\Release\LeaRun.DataAccess.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.DataAccess\obj\Release\LeaRun.DataAccess.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.DataAccess\bin\Release\LeaRun.DataAccess.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.DataAccess\bin\Release\LeaRun.DataAccess.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.DataAccess\bin\Release\EntityFramework.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.DataAccess\bin\Release\LeaRun.Cache.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.DataAccess\bin\Release\log4net.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.DataAccess\bin\Release\MySql.Data.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.DataAccess\bin\Release\Oracle.DataAccess.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.DataAccess\bin\Release\System.Data.SQLite.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.DataAccess\bin\Release\LeaRun.Cache.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.DataAccess\obj\Release\LeaRun.DataAccess.csprojResolveAssemblyReference.cache
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.DataAccess\obj\Release\LeaRun.DataAccess.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.DataAccess\obj\Release\LeaRun.DataAccess.pdb
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.DataAccess\bin\Release\LeaRun.DataAccess.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.DataAccess\bin\Release\LeaRun.DataAccess.pdb
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.DataAccess\bin\Release\EntityFramework.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.DataAccess\bin\Release\LeaRun.Cache.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.DataAccess\bin\Release\log4net.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.DataAccess\bin\Release\MySql.Data.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.DataAccess\bin\Release\Oracle.DataAccess.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.DataAccess\bin\Release\System.Data.SQLite.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.DataAccess\bin\Release\LeaRun.Cache.pdb
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.DataAccess\obj\Release\LeaRun.DataAccess.csprojResolveAssemblyReference.cache
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.DataAccess\obj\Release\LeaRun.DataAccess.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.DataAccess\obj\Release\LeaRun.DataAccess.pdb

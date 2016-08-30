@@ -1,0 +1,42 @@
+2016-08-28 21:37:34,026 [12] ERROR LeaRun.DataAccess.DbHelper - 列名 'Cholesterol' 无效。
+列名 'ChineseDiagnosis' 无效。
+列名 'WESTDiagnosis' 无效。
+列名 'MedicalRecord' 无效。
+列名 'ConditionRecommand' 无效。
+列名 'Other' 无效。
+2016-08-28 21:37:42,725 [16] ERROR LeaRun.DataAccess.DbHelper - 列名 'Cholesterol' 无效。
+列名 'ChineseDiagnosis' 无效。
+列名 'WESTDiagnosis' 无效。
+列名 'MedicalRecord' 无效。
+列名 'ConditionRecommand' 无效。
+列名 'Other' 无效。
+2016-08-28 21:38:26,468 [8] ERROR LeaRun.DataAccess.DbHelper - 列名 'Cholesterol' 无效。
+列名 'ChineseDiagnosis' 无效。
+列名 'WESTDiagnosis' 无效。
+列名 'MedicalRecord' 无效。
+列名 'ConditionRecommand' 无效。
+列名 'Other' 无效。
+2016-08-28 21:39:24,811 [25] ERROR LeaRun.DataAccess.DbHelper - 列名 'Cholesterol' 无效。
+列名 'ChineseDiagnosis' 无效。
+列名 'WESTDiagnosis' 无效。
+列名 'MedicalRecord' 无效。
+列名 'ConditionRecommand' 无效。
+列名 'Other' 无效。
+2016-08-28 21:39:39,042 [26] ERROR LeaRun.DataAccess.DbHelper - 列名 'Cholesterol' 无效。
+列名 'ChineseDiagnosis' 无效。
+列名 'WESTDiagnosis' 无效。
+列名 'MedicalRecord' 无效。
+列名 'ConditionRecommand' 无效。
+列名 'Other' 无效。
+2016-08-28 21:40:12,349 [26] ERROR LeaRun.DataAccess.DbHelper - 列名 'Cholesterol' 无效。
+列名 'ChineseDiagnosis' 无效。
+列名 'WESTDiagnosis' 无效。
+列名 'MedicalRecord' 无效。
+列名 'ConditionRecommand' 无效。
+列名 'Other' 无效。
+2016-08-28 21:40:20,121 [26] ERROR LeaRun.DataAccess.DbHelper - 列名 'Cholesterol' 无效。
+列名 'ChineseDiagnosis' 无效。
+列名 'WESTDiagnosis' 无效。
+列名 'MedicalRecord' 无效。
+列名 'ConditionRecommand' 无效。
+列名 'Other' 无效。

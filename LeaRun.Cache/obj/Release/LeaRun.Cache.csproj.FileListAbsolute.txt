@@ -1,0 +1,30 @@
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Cache\bin\Release\LeaRun.Cache.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Cache\bin\Release\LeaRun.Cache.pdb
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Cache\obj\Release\LeaRun.Cache.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Cache\obj\Release\LeaRun.Cache.pdb
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Cache\obj\Release\LeaRun.Cache.csprojResolveAssemblyReference.cache
+F:\YMStudioWorking\YMTechnology\LeaRun.Cache\bin\Release\LeaRun.Cache.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Cache\bin\Release\LeaRun.Cache.pdb
+F:\YMStudioWorking\YMTechnology\LeaRun.Cache\obj\Release\LeaRun.Cache.csprojResolveAssemblyReference.cache
+F:\YMStudioWorking\YMTechnology\LeaRun.Cache\obj\Release\LeaRun.Cache.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Cache\obj\Release\LeaRun.Cache.pdb
+F:\YMStudioWorking\YMMember\LeaRun.Cache\bin\Release\LeaRun.Cache.dll
+F:\YMStudioWorking\YMMember\LeaRun.Cache\bin\Release\LeaRun.Cache.pdb
+F:\YMStudioWorking\YMMember\LeaRun.Cache\obj\Release\LeaRun.Cache.csprojResolveAssemblyReference.cache
+F:\YMStudioWorking\YMMember\LeaRun.Cache\obj\Release\LeaRun.Cache.dll
+F:\YMStudioWorking\YMMember\LeaRun.Cache\obj\Release\LeaRun.Cache.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Cache\bin\Release\LeaRun.Cache.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Cache\bin\Release\LeaRun.Cache.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Cache\obj\Release\LeaRun.Cache.csprojResolveAssemblyReference.cache
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Cache\obj\Release\LeaRun.Cache.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Cache\obj\Release\LeaRun.Cache.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Cache\bin\Release\LeaRun.Cache.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Cache\bin\Release\LeaRun.Cache.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Cache\obj\Release\LeaRun.Cache.csprojResolveAssemblyReference.cache
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Cache\obj\Release\LeaRun.Cache.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Cache\obj\Release\LeaRun.Cache.pdb
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Cache\bin\Release\LeaRun.Cache.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Cache\bin\Release\LeaRun.Cache.pdb
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Cache\obj\Release\LeaRun.Cache.csprojResolveAssemblyReference.cache
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Cache\obj\Release\LeaRun.Cache.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Cache\obj\Release\LeaRun.Cache.pdb

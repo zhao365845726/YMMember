@@ -1,0 +1,117 @@
+@{
+    ViewBag.Title = "检查记录";
+    Layout = "~/Views/Shared/_LayoutIndex.cshtml";
+}
+<script type="text/javascript">
+    $(function () {
+        GetGrid();
+    })
+    //加载表格
+    function GetGrid() {
+        $("#gridTable").jqGrid({
+        url: "@Url.Content("~/CustomerModule/InspectionRecord/GridPageJson")",
+        datatype: "json",
+        height: $(window).height() - 149,
+        autowidth: true,
+        colModel: [
+                { label: '检查记录', name: 'ID', index: 'ID', width: 0, align: 'left',sortable: true ,hidden: true },
+                { label: '血压', name: 'BloodPressure', index: 'BloodPressure', width: 50, align: 'center',sortable: true  },
+                { label: '血糖', name: 'BloodSugar', index: 'BloodSugar', width: 50, align: 'center',sortable: true  },
+                { label: '血脂', name: 'BloodFat', index: 'BloodFat', width: 50, align: 'center', sortable: true },
+                { label: '胆固醇', name: 'Cholesterol', index: 'Cholesterol', width: 50, align: 'center', sortable: true },
+                { label: '血常规', name: 'RoutineBloodTest', index: 'RoutineBloodTest', width: 50, align: 'center',sortable: true  },
+                { label: '尿常规', name: 'UrineRoutine', index: 'UrineRoutine', width: 50, align: 'center',sortable: true  },
+                { label: '血型', name: 'BloodType', index: 'BloodType', width: 50, align: 'center',sortable: true  },
+                { label: '肝功能', name: 'LiverFunction', index: 'LiverFunction', width: 50, align: 'center',sortable: true  },
+                { label: '肾功能', name: 'RenalFunction', index: 'RenalFunction', width: 50, align: 'center',sortable: true  },
+                { label: '腹部B超', name: 'AbdomenUltrasonography', index: 'AbdomenUltrasonography', width: 50, align: 'center',sortable: true  },
+                { label: '心电图', name: 'Electrocardiogram', index: 'Electrocardiogram', width: 50, align: 'center',sortable: true  },
+                { label: '微量元素', name: 'TraceElement', index: 'TraceElement', width: 50, align: 'center', sortable: true },
+                { label: '其他', name: 'Other', index: 'Other', width: 50, align: 'center', sortable: true },
+                { label: '病历情况', name: 'MedicalRecord', index: 'MedicalRecord', width: 0, align: 'left', sortable: true },
+                { label: '中医诊断', name: 'ChineseDiagnosis', index: 'ChineseDiagnosis', width: 0, align: 'left', sortable: true },
+                { label: '西医诊断', name: 'WESTDiagnosis', index: 'WESTDiagnosis', width: 0, align: 'left', sortable: true },
+                { label: '调理建议', name: 'ConditionRecommand', index: 'ConditionRecommand', width: 0, align: 'left', sortable: true },
+                { label: '附件', name: 'Enclosure', index: 'Enclosure', width: 700, align: 'left', sortable: true },
+                { label: '会员Id', name: 'MemberId', index: 'MemberId', width: 0, align: 'left',sortable: true ,hidden: true },
+                { label: '排序', name: 'Sort', index: 'Sort', width: 0, align: 'left',sortable: true ,hidden: true },
+                { label: '创建时间', name: 'CreateTime', index: 'CreateTime', width: 0, align: 'left',sortable: true ,hidden: true },
+                { label: '创建人Id', name: 'CreatePersonId', index: 'CreatePersonId', width: 0, align: 'left',sortable: true ,hidden: true },
+                { label: '创建人', name: 'CreatePerson', index: 'CreatePerson', width: 0, align: 'left',sortable: true ,hidden: true },
+                { label: '更新时间', name: 'UpdateTime', index: 'UpdateTime', width: 0, align: 'left',sortable: true ,hidden: true },
+                { label: '更新人Id', name: 'UpdatePersonId', index: 'UpdatePersonId', width: 0, align: 'left',sortable: true ,hidden: true },
+                { label: '更新人', name: 'UpdatePerson', index: 'UpdatePerson', width: 0, align: 'left',sortable: true ,hidden: true },
+                { label: '删除标记', name: 'DeleteMark', index: 'DeleteMark', width: 0, align: 'left',sortable: true ,hidden: true },
+        ],
+        pager: "#gridPager",
+        sortname: '',
+        sortorder: 'desc',
+        rownumbers: true,
+        shrinkToFit: false,
+        gridview: true,
+    });
+}
+    //新增
+    function btn_add() {
+        var url = "/CustomerModule/InspectionRecord/Form"
+        openDialog(url, "Form", "新增检查记录", 400, 395, function (iframe) {
+            top.frames[iframe].AcceptClick()
+        });
+    }
+    //编辑
+    function btn_edit() {
+        var KeyValue = GetJqGridRowValue("#gridTable", "ID");
+        if (IsChecked(KeyValue)) {
+            var url = "/CustomerModule/InspectionRecord/Form?KeyValue=" + KeyValue;
+            openDialog(url, "Form", "编辑检查记录", 400, 395, function (iframe) {
+                top.frames[iframe].AcceptClick();
+            });
+        }
+    }
+    //删除
+    function btn_delete() {
+        var KeyValue = GetJqGridRowValue("#gridTable", "ID");
+        if (IsDelData(KeyValue)) {
+            var delparm = 'KeyValue=' + KeyValue;
+            delConfig('/CustomerModule/InspectionRecord/Delete', delparm, KeyValue.split(",").length);
+        }
+    }
+    //明细
+    function btn_detail() {
+        var KeyValue = GetJqGridRowValue("#gridTable", "ID");
+        if (IsChecked(KeyValue)) {
+            var url = "/CustomerModule/InspectionRecord/Detail?KeyValue=" + KeyValue;
+            Dialog(url, "Detail", "检查记录明细", 400, 500, function (iframe) {
+                top.frames[iframe].AcceptClick();
+            });
+        }
+    }
+    //刷新
+    function windowload() {
+        $("#gridTable").trigger("reloadGrid"); //重新载入
+        
+    }
+</script>
+<!--工具栏-->
+<div class="tools_bar leftline rightline" style="margin: 1px; margin-bottom: 0px;">
+    <div class="PartialButton">
+        @Html.Partial("_PartialButton")
+    </div>
+</div>
+@*<div class="leftline rightline QueryArea" style="margin: 1px; margin-top: 0px; margin-bottom: 0px;">
+    <table border="0" class="form-find" style="height: 45px;">
+        <tr>
+            <th>关键字：</th>
+            <td>
+                <input id="keywords" type="text" class="txt" style="width: 200px" />
+            </td>
+            <td>
+                <input id="btnSearch" type="button" class="btnSearch" value="搜 索" onclick="btn_Search()" />
+            </td>
+        </tr>
+    </table>
+</div>*@
+<div class="topline rightline" style="margin: 1px; margin-top: -1px;">
+    <table id="gridTable"></table>
+    <div id="gridPager"></div>
+</div>

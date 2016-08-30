@@ -1,0 +1,238 @@
+@{
+    ViewBag.Title = "检查记录》表单页面";
+    Layout = "~/Views/Shared/_LayoutForm.cshtml";
+}
+<!--上传文件组件start-->
+<link href="~/Content/Scripts/uploadify/uploadify.css" rel="stylesheet" />
+<script src="~/Content/Scripts/uploadify/jquery.uploadify.js"></script>
+<!--上传文件组件end-->
+<script type="text/javascript">
+    var KeyValue = GetQuery('KeyValue');//主键
+    $(function () {
+        BindCombobox();
+        uploadify();
+        InitControl();
+    })
+
+    //初始化绑定下拉框
+    function BindCombobox() {
+        //血型
+        BindDropItem("#BloodType", "BloodType", "==请选择==");
+    }
+
+    //得到一个对象实体
+    function InitControl() {
+        if (!!GetQuery('KeyValue')) {
+            AjaxJson("/CustomerModule/InspectionRecord/SetForm", { KeyValue: KeyValue }, function (data) {
+                SetWebControls(data);
+            });
+            AjaxJson("/ExampleModule/Email/SetEmailControl", { KeyValue: KeyValue }, function (data) {
+                //附件
+                var AccessoryJson = data.EmailAccessory;
+                $.each(AccessoryJson, function (i) {
+                    $("#FileUpList").append('<p style="padding-bottom: 5px;">' + index_uploadify + '、' + AccessoryJson[i].FileName + ' (' + AccessoryJson[i].FileSize + ')<a id="' + AccessoryJson[i].EmailAccessoryId + '" FileName="' + AccessoryJson[i].FileName + '" FileSize="' + AccessoryJson[i].FileSize + '" path="' + AccessoryJson[i].FilePath + '" class="nui-txt-link" onclick="DeleteFile(this.id)">删除</a></p>');
+                    index_uploadify++;
+                });
+            });
+        }
+        if (!!GetQuery('MemberId')) {
+            $("#MemberId").val(GetQuery('MemberId'));
+        }
+    }
+    //上传文件
+    var index_uploadify = 1;
+    var image_path = '';
+    function uploadify() {
+        $("#uploadify").uploadify({
+            uploader: '/CustomerModule/Member/Upload',
+            swf: '/Content/Scripts/uploadify/uploadify.swf',
+            buttonText: "上传文件",
+            height: 24,
+            width: 70,
+            simUploadLimit:5,
+            onFallback: function () {
+                alert("您未安装FLASH控件，无法上传！请安装FLASH控件后再试。");
+            },
+            onUploadSuccess: function (file, data, response) {
+                var DataJson = JSON.parse(data);
+                image_path += DataJson.Path + ";";
+                $("#Enclosure").text(image_path);
+                $("#FileUpList").append('<p style="padding-bottom: 5px;">' + index_uploadify + '、' + DataJson.Name + ' (' + DataJson.Size + ')<a id="' + DataJson.Id + '" FileName="' + DataJson.Name + '" FileSize="' + DataJson.Size + '" path="' + DataJson.Path + '" class="nui-txt-link" onclick="DeleteFile(this.id)">删除</a></p>');
+                index_uploadify++;
+            }
+        });
+    }
+    //删除文件
+    function DeleteFile(id) {
+        var $Id = $("#" + id);
+        var path = $Id.attr('path');
+        AjaxJson("/CustomerModule/Member/DeleteFile", { Path: path }, function (Data) {
+            $Id.parent().remove();
+        });
+    }
+    //保存事件
+    function AcceptClick() {
+        if (!CheckDataValid('#form1')) {
+            return false;
+        }
+        var postData = GetWebControls("#form1");
+        AjaxJson("/CustomerModule/InspectionRecord/SubmitForm?KeyValue=" + KeyValue, postData, function (data) {
+            tipDialog(data.Message, 3, data.Code);
+            top.frames[tabiframeId()].windowload();
+            closeDialog();
+        });
+    }
+</script>
+<form id="form1" style="margin: 1px">
+    <div id="message" style="display: none"></div>
+    <div class="bd" style="border-bottom: none; margin: 1px;">
+        <div class="tipstitle_title settingtable bold bd todayInfoPanelTab rightPanelTitle_normal">
+            <div class="tab_list_top" style="position: absolute">
+                <div id="Tabbasic" class="tab_list bd actived" onclick="Tabchange('basic')">检查信息</div>
+                <div id="Tabdiagnosis" class="tab_list bd " onclick="Tabchange('diagnosis')">诊断记录</div>
+            </div>
+        </div>
+    </div>
+    <div class="ScrollBar" style="margin: 1px; overflow: hidden;">
+        <!--基本信息-->
+        <div id="basic" class="tabPanel">
+            <table class="form">
+                <tr>
+                    <th class='formTitle'>血压：</th>
+                    <td class='formValue'>
+                        <input id="BloodPressure" maxlength=50 type="text" class="txt" datacol="yes" />
+                    </td>
+                </tr>
+                <tr>
+                    <th class='formTitle'>血糖：</th>
+                    <td class='formValue'>
+                        <input id="BloodSugar" maxlength=50 type="text" class="txt" datacol="yes" />
+                    </td>
+                </tr>
+                <tr>
+                    <th class='formTitle'>血脂：</th>
+                    <td class='formValue'>
+                        <input id="BloodFat" maxlength=50 type="text" class="txt" datacol="yes" />
+                    </td>
+                </tr>
+                <tr>
+                    <th class='formTitle'>胆固醇：</th>
+                    <td class='formValue'>
+                        <input id="Cholesterol" maxlength=50 type="text" class="txt" datacol="yes" />
+                    </td>
+                </tr>
+                <tr>
+                    <th class='formTitle'>血常规：</th>
+                    <td class='formValue'>
+                        <input id="RoutineBloodTest" maxlength=50 type="text" class="txt" datacol="yes" />
+                    </td>
+                </tr>
+                <tr>
+                    <th class='formTitle'>尿常规：</th>
+                    <td class='formValue'>
+                        <input id="UrineRoutine" maxlength=50 type="text" class="txt" datacol="yes" />
+                    </td>
+                </tr>
+                <tr>
+                    <th class='formTitle'>血型：</th>
+                    <td class='formValue'>
+                        <select id="BloodType" class="txtselect" datacol="yes" ></select>
+                    </td>
+                </tr>
+                <tr>
+                    <th class='formTitle'>肝功能：</th>
+                    <td class='formValue'>
+                        <input id="LiverFunction" maxlength=50 type="text" class="txt" datacol="yes" />
+                    </td>
+                </tr>
+                <tr>
+                    <th class='formTitle'>肾功能：</th>
+                    <td class='formValue'>
+                        <input id="RenalFunction" maxlength=50 type="text" class="txt" datacol="yes" />
+                    </td>
+                </tr>
+                <tr>
+                    <th class='formTitle'>腹部B超：</th>
+                    <td class='formValue'>
+                        <input id="AbdomenUltrasonography" maxlength=50 type="text" class="txt" datacol="yes" />
+                    </td>
+                </tr>
+                <tr>
+                    <th class='formTitle'>心电图：</th>
+                    <td class='formValue'>
+                        <input id="Electrocardiogram" maxlength=50 type="text" class="txt" datacol="yes" />
+                    </td>
+                </tr>
+                <tr>
+                    <th class='formTitle'>微量元素：</th>
+                    <td class='formValue'>
+                        <input id="TraceElement" maxlength=50 type="text" class="txt" datacol="yes" />
+                    </td>
+                </tr>
+                <tr>
+                    <th class='formTitle'>其他：</th>
+                    <td class='formValue'>
+                        <input id="Other" maxlength=50 type="text" class="txt" datacol="yes" />
+                    </td>
+                </tr>
+                <tr style="display:none;">
+                    <th class='formTitle'>会员Id：</th>
+                    <td class='formValue'>
+                        <input id="MemberId" maxlength=50 type="text" class="txt" />
+                    </td>
+                </tr>
+                <tr style="display:none;">
+                    <th class='formTitle'>附件：</th>
+                    <td class='formValue'>
+                        <textarea id="Enclosure" maxlength=500 class="txtArea" rows="5"></textarea>
+                    </td>
+                </tr>
+            </table>
+            <div class="background border" style="padding: 15px; padding-top: 0px; padding-bottom: 0px;">
+                <div style="height: 29px; padding-top: 10px;">
+                    <label style="float: left; padding: 4px;">上传附件：</label>
+                    <div style="float: left;">
+                        <input id="uploadify" name="uploadify" type="file" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="diagnosis" class="tabPanel" style="display: none;">
+            <table class="form">
+                <tr>
+                    <th class="formTitle">
+                        病历情况：
+                    </th>
+                    <td class="formValue" colspan="3">
+                        <textarea id="MedicalRecord" class="txtArea" rows="7"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="formTitle">
+                        中医诊断：
+                    </th>
+                    <td class="formValue" colspan="3">
+                        <textarea id="ChineseDiagnosis" class="txtArea" rows="7"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="formTitle">
+                        西医诊断：
+                    </th>
+                    <td class="formValue" colspan="3">
+                        <textarea id="WESTDiagnosis" class="txtArea" rows="7"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="formTitle">
+                        调理建议：
+                    </th>
+                    <td class="formValue" colspan="3">
+                        <textarea id="ConditionRecommand" class="txtArea" rows="7"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+</form>

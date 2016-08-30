@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>体质结果</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="Content/css/bootstrap.min.css">
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="Content/css/bootstrap-theme.min.css">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="Content/js/jquery-1.9.1.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="Content/js/bootstrap.min.js"></script>
+    <script src="Content/js/main.js"></script>
+    <script>
+        $(function () {
+            $("#constResult").text(localStorage.getItem("Result"));
+
+            writeRecord();
+        });
+    </script>
+    <style>
+        body { font-family: 'Microsoft YaHei'; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center">体质结果</h2>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="alert alert-info col-lg-12 col-sm-12 col-md-12" role="alert" id="constResult"></div>
+        </div>
+    </div>
+</body>
+</html>

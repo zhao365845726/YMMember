@@ -1,0 +1,13 @@
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\bin\Release\LeaRun.Resource.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\bin\Release\LeaRun.Resource.pdb
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\bin\Release\zh-CN\LeaRun.Resource.resources.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\bin\Release\zh-TW\LeaRun.Resource.resources.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\obj\Release\LeaRun.Resource.csprojResolveAssemblyReference.cache
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\obj\Release\LeaRun.Resource.CommonResource.resources
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\obj\Release\LeaRun.Resource.CommonResource.zh-CN.resources
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\obj\Release\LeaRun.Resource.CommonResource.zh-TW.resources
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\obj\Release\LeaRun.Resource.csproj.GenerateResource.Cache
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\obj\Release\zh-CN\LeaRun.Resource.resources.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\obj\Release\zh-TW\LeaRun.Resource.resources.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\obj\Release\LeaRun.Resource.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\obj\Release\LeaRun.Resource.pdb

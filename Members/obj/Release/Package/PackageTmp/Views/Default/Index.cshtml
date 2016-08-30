@@ -1,0 +1,124 @@
+﻿
+@{
+    ViewBag.Title = "健康高平•平安堂";
+    Layout = "~/Views/Shared/_LayoutMember.cshtml";
+}
+
+<style>
+    form {
+        padding-top: 25px;
+    }
+</style>
+
+<script>
+        $(document).ready(function () {
+            var sign = true;
+
+            $("#submitBtn").click(function () {
+
+                if ($("#InputTel").val() == "")
+                {
+                    alert("请输入登入名");
+                    sign = false;
+                }
+                if ($("#InputPassword").val() == "" && sign == true) {
+                    alert("请输入密码");
+                    sign = false;
+                }
+                if (sign == true)
+                {
+                    $("#loginform").submit();
+                }
+            });
+        });
+</script>
+
+
+@using (Html.BeginForm("Login", "Home", FormMethod.Post, new { id = "loginform", name = "loginform" }))
+{
+    <div class="form-group">
+        <div class="input-group">
+            <span class="input-group-addon">手机</span>
+            <input type="text" id="InputTel" name="InputTel" class="form-control" placeholder="手机">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="input-group">
+            <span class="input-group-addon">密码</span>
+            <input type="password" id="InputPassword" name="InputPassword" class="form-control" placeholder="密码">
+        </div>
+    </div>
+
+    <div class="row" style="margin-top:20px;">
+        <div class="col-xs-12 col-md-12 col-lg-12">
+            <button type="button" id="btnLogin" name="btnLogin" class="col-xs-12 col-md-12 col-lg-12 btn btn-default">登录</button>
+        </div>
+    </div>
+
+    @*<div class="contain">
+        <a class="l-return" href="@Url.Action("Index", "Home")">返回首页</a>
+        <ul class="l-login">
+            <li class="l-logo"><img src="@Url.Content("~/Content/images/loginlogo.png")"></li>
+            <li><div class="l-name"><i class="l-name-iphone"></i><input class="l-user-iphone" type="text" placeholder="请输入登入名" id="userId" name="userId"></div></li>
+            <li><div class="l-name"><i class="l-name-iphone2"></i><input class="l-user-iphone" type="text" placeholder="请输入部门" id="dep" name="dep"></div></li>
+            <li><div class="l-password"><i class="l-name-iphone1"></i><input class="l-user-iphone" type="password" placeholder="请输入登录密码" id="pwd" name="pwd"></div></li>
+
+            <li class="l-checkbox"><a class="l-find" href="" target="_blank" style="display:none">找回密码</a><label class="l-member"><input type="checkbox" id="addtimeCK" name="addtimeCK">下次自动登录</label></li>
+            <a class="l-btn" href="javascript:void(0)" id="submitBtn">立即登录</a>
+        </ul>
+        @Html.Hidden("nexturl")
+        <div class="copyright">
+            <div class="copy">
+                @Html.ActionLink("关于我们", "Index", "EnterpriseOfficialWebsite", null, new { target = "_blank" })
+                @Html.ActionLink("联系我们", "ContactUS", "EnterpriseOfficialWebsite", null, new { target = "_blank" })
+                @Html.ActionLink("加入我们", "HumanResources", "EnterpriseOfficialWebsite", null, new { target = "_blank" })
+
+                <a onclick="GoTop()" href="" style="background:none;">回到顶部</a>
+
+                <p>@Html.Raw(ViewBag.cityname)中环地产顾问有限公司 版权所有</p>
+                <p>客服部电话：@ViewBag.cityphone</p>
+                <p>地址：@ViewBag.cityaddress</p>
+            </div>
+        </div>
+    </div>*@
+}
+@if (TempData["msg"] != null && TempData["msg"].ToString() == "登入成功")
+{
+    <script>
+
+            if (document.getElementById("nexturl").value.toLowerCase().indexOf("login") == -1 && document.getElementById("nexturl").value.toLowerCase()!="") {
+                alert("登入成功,跳转中"); location.href = document.getElementById("nexturl").value;
+            }
+            else
+            {
+                alert("登入成功,跳转中"); location.href = "/Home/Index";
+            }
+
+    </script>
+}
+@if (TempData["msg"] != null && TempData["msg"].ToString() == "登入失败")
+{
+    <script>alert("登入失败"); </script>
+}
+
+@*<form action="" method="post" class="">
+    <div class="form-group">
+        <div class="input-group">
+            <span class="input-group-addon">手机</span>
+            <input type="text" id="InputTel" class="form-control" placeholder="手机">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="input-group">
+            <span class="input-group-addon">密码</span>
+            <input type="password" id="InputPassword" class="form-control" placeholder="密码">
+        </div>
+    </div>
+
+    <div class="row" style="margin-top:20px;">
+        <div class="col-xs-12 col-md-12 col-lg-12">
+            <button type="button" id="btnLogin" class="col-xs-12 col-md-12 col-lg-12 btn btn-default">登录</button>
+        </div>
+    </div>
+</form>*@
+

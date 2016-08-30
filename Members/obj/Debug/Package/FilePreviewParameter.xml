@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="members" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^G:\\ZHDCSVN-Working\\trunk\\common\\YMMember\\Members\\obj\\Debug\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^G:\\ZHDCSVN-Working\\trunk\\common\\YMMember\\Members\\obj\\Debug\\Package\\PackageTmp$" />
+  </parameter>
+</parameters>

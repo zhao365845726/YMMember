@@ -1,0 +1,65 @@
+﻿@{
+    ViewBag.Title = "重置密码";
+    Layout = "~/Views/Shared/_LayoutMember.cshtml";
+}
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/member")
+
+<style>
+    #resetForm{padding-top:20px;}
+</style>
+
+<script>
+    $(function () {
+        $("#btnQuickOperation").removeClass("hidden");
+        $("#bs-example-navbar-collapse-1").removeClass("hidden");
+    });
+</script>
+
+@using (Html.BeginForm("ResetPwd","Default",FormMethod.Post,new { id="resetForm",name="resetForm" }))
+{
+    <div class="container">
+        <div class="form-group hidden">
+            <div class="input-group">
+                <span class="input-group-addon">ResetId</span>
+                <input type="text" name="ResetId" class="form-control" placeholder="ResetId" value="@TempData["ResetID"]">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="input-group">
+                <span class="input-group-addon">旧密码</span>
+                <input type="text" onblur="condition(this)" id="OldPassword" name="OldPassword" class="form-control" placeholder="旧密码">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="input-group">
+                <span class="input-group-addon">新密码</span>
+                <input type="password" onblur="condition(this)" id="NewPassword" name="NewPassword" class="form-control" placeholder="新密码">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="input-group">
+                <span class="input-group-addon">再输入</span>
+                <input type="password" onblur="condition(this)" id="AgainNewPassword" name="AgainNewPassword" class="form-control" placeholder="新密码">
+            </div>
+        </div>
+        <div id="tipInfo" role="alert" style="display:none;"></div>
+
+        @if(TempData["ResetMsg"] == "密码修改成功"){
+            <div class="alert alert-success" role="alert">@TempData["ResetMsg"]</div>
+        }
+        else if(TempData["ResetMsg"] == "密码修改失败")
+        {
+            <div class="alert alert-danger" role="alert">@TempData["ResetMsg"]</div>
+        }
+
+        
+        <div class="row" style="margin-top:20px;">
+            <div class="col-xs-12 col-md-12 col-lg-12">
+                <button type="button" id="btnReset" class="col-xs-12 col-md-12 col-lg-12 btn btn-default">确定</button>
+            </div>
+        </div>
+    </div>
+}
+

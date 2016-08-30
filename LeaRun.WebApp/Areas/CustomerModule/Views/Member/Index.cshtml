@@ -1,0 +1,298 @@
+@{
+    ViewBag.Title = "会员列表页面";
+    Layout = "~/Views/Shared/_LayoutIndex.cshtml";
+}
+<script type="text/javascript">
+    $(function () {
+        GetGrid();
+    })
+    //加载表格
+    function GetGrid() {
+        $("#gridTable").jqGrid({
+            url: "@Url.Content("~/CustomerModule/Member/GridPageListJson")?keyword=" + getSearchParams(),
+            datatype: "json",
+            height: $(window).height() - 175,
+            autowidth: true,
+            colModel: [
+                    { label: 'ID', name: 'id', index: 'id', width: 0, align: 'left', hidden: true },
+                    { label: '姓名', name: 'name', index: 'name', width: 60, align: 'center', sortable: true},
+                    { label: '年龄', name: 'age', index: 'age', width: 40, align: 'center', sortable: true},
+                    {
+                        label: '性别', name: 'sex', index: 'sex', width: 40, align: 'center', sortable: true, 
+                        formatter: function (cellvalue, options, rowObject) {
+                            if (cellvalue == 0) {
+                                return "女";
+                            } else if (cellvalue == 1) {
+                                return "男";
+                            }
+                        }
+                    },
+                    {
+                        label: '生日', name: 'birthday', index: 'birthday', width: 0, align: 'center', sortable: true,
+                        formatter: function (cellvalue, options,rowObject) {
+                            return formatDate(cellvalue, 'yyyy-MM-dd');
+                        }
+                    },
+                    { label: 'Birthplace', name: 'birthplace', index: 'birthplace', width: 0, align: 'left', hidden: true },
+                    { label: '电话', name: 'tel', index: 'tel', width: 90, align: 'center', sortable: true },
+                    { label: 'Password', name: 'password', index: 'password', width: 0, align: 'left', hidden: true },
+                    { label: 'Zodiac', name: 'zodiac', index: 'zodiac', width: 0, align: 'left', hidden: true },
+                    { label: '身份证', name: 'idcardnumber', index: 'idcardnumber', width: 0, align: 'center', sortable: true, hidden: true },
+                    { label: 'Photo', name: 'Photo', index: 'Photo', width: 0, align: 'left', hidden: true },
+                    { label: 'Nation', name: 'Nation', index: 'Nation', width: 0, align: 'left', hidden: true },
+                    { label: 'Nationality', name: 'Nationality', index: 'Nationality', width: 0, align: 'left', hidden: true },
+                    { label: 'PoliticalLandscape', name: 'PoliticalLandscape', index: 'PoliticalLandscape', width: 0, align: 'left', hidden: true },
+                    { label: 'AccountProperties', name: 'AccountProperties', index: 'AccountProperties', width: 0, align: 'left', hidden: true },
+                    { label: 'Marriage', name: 'Marriage', index: 'Marriage', width: 0, align: 'left', hidden: true },
+                    { label: 'BloodType', name: 'BloodType', index: 'BloodType', width: 0, align: 'left', hidden: true },
+                    { label: 'Constellation', name: 'Constellation', index: 'Constellation', width: 0, align: 'left', hidden: true },
+                    { label: '家庭住址', name: 'homeaddress', index: 'homeaddress', width: 0, align: 'left', sortable: true},
+                    { label: '现住址', name: 'liveaddress', index: 'liveaddress', width: 0, align: 'left', sortable: true, hidden: true },
+                    { label: '职业', name: 'profession', index: 'profession', width: 90, align: 'center' },
+                    { label: 'Job', name: 'Job', index: 'Job', width: 0, align: 'left', hidden: true },
+                    { label: 'WorkingLife', name: 'WorkingLife', index: 'WorkingLife', width: 0, align: 'left', hidden: true },
+                    { label: 'CurrentWorkUnit', name: 'CurrentWorkUnit', index: 'CurrentWorkUnit', width: 0, align: 'left', hidden: true },
+                    { label: 'QQ号', name: 'qq', index: 'qq', width: 0, align: 'left', sortable: true, hidden: true },
+                    { label: '邮箱', name: 'email', index: 'email', width: 0, align: 'left', sortable: true, hidden: true },
+                    { label: 'WeChat', name: 'WeChat', index: 'WeChat', width: 0, align: 'left', hidden: true },
+                    { label: 'Vehicle', name: 'Vehicle', index: 'Vehicle', width: 0, align: 'left', hidden: true },
+                    { label: 'Educational', name: 'Educational', index: 'Educational', width: 0, align: 'left', hidden: true },
+                    { label: 'GraduateSchool', name: 'GraduateSchool', index: 'GraduateSchool', width: 0, align: 'left', hidden: true },
+                    { label: 'IsGraduation', name: 'IsGraduation', index: 'IsGraduation', width: 0, align: 'left', hidden: true },
+                    { label: 'Major', name: 'Major', index: 'Major', width: 0, align: 'left', hidden: true },
+                    { label: 'ConsumptionConcept', name: 'ConsumptionConcept', index: 'ConsumptionConcept', width: 0, align: 'left', hidden: true },
+                    { label: 'Hobby', name: 'Hobby', index: 'Hobby', width: 0, align: 'left', hidden: true },
+                    { label: 'Character', name: 'Character', index: 'Character', width: 0, align: 'left', hidden: true },
+                    { label: 'Skill', name: 'Skill', index: 'Skill', width: 0, align: 'left', hidden: true },
+                    { label: 'Source', name: 'Source', index: 'Source', width: 0, align: 'left', hidden: true },
+                    { label: 'MonthlySalary', name: 'MonthlySalary', index: 'MonthlySalary', width: 0, align: 'left', hidden: true },
+                    { label: 'AnnualSalary', name: 'AnnualSalary', index: 'AnnualSalary', width: 0, align: 'left', hidden: true },
+                    { label: 'FlagDelete', name: 'FlagDelete', index: 'FlagDelete', width: 0, align: 'left', hidden: true },
+                    { label: '签名', name: 'signature', index: 'signature', width: 0, align: 'left', sortable: true, hidden: true },
+                    { label: 'Motto', name: 'Motto', index: 'Motto', width: 0, align: 'left', hidden: true },
+                    { label: '备注', name: 'remark', index: 'remark', width: 0, align: 'left', sortable: true, hidden: true },
+                    { label: '归属人', name: 'AscriptionPerson', index: 'AscriptionPerson', width: 0, align: 'left', hidden: true },
+                    { label: '归属部门', name: 'AscriptionDepartment', index: 'AscriptionDepartment', width: 0, align: 'left', hidden: true },
+                    { label: '归属公司', name: 'AscriptionCompany', index: 'AscriptionCompany', width: 0, align: 'left', hidden: true },
+                    { label: '病种', name: 'disease', index: 'disease', width: 50, align: 'center', sortable: true },
+                    { label: '亚健康状态', name: 'subhealth', index: 'subhealth', width: 70, align: 'center', sortable: true },
+                    { label: '组别', name: 'safetanggroup', index: 'safetanggroup', width: 50, align: 'center', sortable: true },
+                    { label: '中医诊断', name: 'chinesediagnosis', index: 'chinesediagnosis', width: 0, align: 'left', sortable: true, hidden: true },
+                    { label: '西医诊断', name: 'westdiagnosis', index: 'westdiagnosis', width: 0, align: 'left', sortable: true, hidden: true },
+                    { label: '病历情况', name: 'medicalrecord', index: 'medicalrecord', width: 0, align: 'left', sortable: true, hidden: true },
+                    {
+                        label: '入会时间', name: 'membershipdate', index: 'membershipdate', width: 0, align: 'center', sortable: true,
+                        formatter: function (cellvalue, options, rowObject) {
+                            return formatDate(cellvalue, 'yyyy-MM-dd');
+                        }
+                    },
+                    {
+                        label: '到期时间', name: 'expiredate', index: 'expiredate', width: 0, align: 'center', sortable: true,
+                        formatter: function (cellvalue, options, rowObject) {
+                            return formatDate(cellvalue, 'yyyy-MM-dd');
+                        }
+                    },
+                    { label: '组编号', name: 'groupnumber', index: 'groupnumber', width: 0, align: 'left', sortable: true },
+            ],
+            pager: "#gridPager",
+            sortname: '',
+            sortorder: 'desc',
+            rownumbers: true,
+            onSelectRow: function () {
+                SelectRowIndx = GetJqGridRowIndx("#" + this.id);
+            },
+            shrinkToFit: false,
+            gridview: true,
+        });
+
+        //$("#gridTable").jqGrid('filterToolbar', {searchOperators:true});
+    }
+    
+
+    //高级查询
+    @*var QueryParamJson = "";
+    function btn_query() {
+        QueryDialog("/Utility/QueryPage", "QueryPage", "查询过滤", 770, 395, function (iframe) {
+            top.frames[iframe].QueryClick(function (JsonData) {
+                QueryParamJson = JsonData;
+                $("#gridTable").jqGrid('setGridParam', {
+                    url: "@Url.Content("~/CommonModule/User/GridPageListJson")?ParameterJson=" + escape(JsonData), page: 1
+                }).trigger('reloadGrid');
+            });
+        });
+    }*@
+
+    //获取搜索参数
+    function getSearchParams() {
+        var param = "";
+        var m_Name = $("#strname").val();
+        var m_Sex = $("#strsex").val();
+        var m_Age = $("#strage").val();
+        var m_Tel = $("#strtel").val();
+        var m_Profession = $("#strprofession").val();
+        var m_Disease = $("#strdisease").val();
+        if (m_Name != "") {
+            param += "&name=" + m_Name;
+        } else {
+            param += "&name=";
+        }
+        if (m_Sex != "") {
+            param += "&sex=" + m_Sex;
+        } else {
+            param += "&sex=";
+        }
+        if (m_Age != "") {
+            param += "&age=" + m_Age;
+        } else {
+            param += "&age=";
+        }
+        if (m_Tel != "") {
+            param += "&tel=" + m_Tel;
+        } else {
+            param += "&tel=";
+        }
+        if (m_Profession != "") {
+            param += "&profession=" + m_Profession;
+        } else {
+            param += "&profession=";
+        }
+        if (m_Disease != "") {
+            param += "&disease=" + m_Disease;
+        } else {
+            param += "&disease=";
+        }
+        //console.log(param);
+        return param;
+    }
+
+    //搜索
+    function btn_Search() {
+        var keywords = $("#keywords").val();
+        $("#gridTable").jqGrid('setGridParam', {
+            url: "@Url.Content("~/CustomerModule/Member/GridPageListJson")?keywords=" + escape(keywords) + getSearchParams(), page: 1
+        }).trigger('reloadGrid');
+    }
+
+    //清空查询条件
+    function btn_Clear() {
+        $("#strname").val("");
+        $("#strsex").val("");
+        $("#strage").val("");
+        $("#strtel").val("");
+        $("#strprofession").val("");
+        $("#strdisease").val("");
+        $("#keywords").val("");
+    }
+
+    //新增
+    function btn_add() {
+        var url = "/CustomerModule/Member/Form"
+        openDialog(url, "Form", "新增会员", 400, 395, function (iframe) {
+            top.frames[iframe].AcceptClick()
+        });
+    }
+    //编辑
+    function btn_edit() {
+        var KeyValue = GetJqGridRowValue("#gridTable", "id");
+        if (IsChecked(KeyValue)) {
+            var url = "/CustomerModule/Member/Form?KeyValue=" + KeyValue;
+            openDialog(url, "Form", "编辑会员", 400, 395, function (iframe) {
+                top.frames[iframe].AcceptClick();
+            });
+        }
+    }
+    //删除
+    function btn_delete() {
+        var KeyValue = GetJqGridRowValue("#gridTable", "id");
+        if (IsDelData(KeyValue)) {
+            var delparm = 'KeyValue=' + KeyValue;
+            delConfig('/CustomerModule/Member/Delete', delparm, KeyValue.split(",").length);
+        }
+    }
+    //明细
+    function btn_detail() {
+        var KeyValue = GetJqGridRowValue("#gridTable", "id");
+        if (IsChecked(KeyValue)) {
+            var url = "/CustomerModule/Member/Detail?KeyValue=" + KeyValue;
+            Dialog(url, "Detail", "会员明细", 400, 395, function (iframe) {
+                top.frames[iframe].AcceptClick();
+            });
+        }
+    }
+    //检查
+    function btn_inspection() {
+        var MemberId = GetJqGridRowValue("#gridTable", "id");
+        if (IsChecked(MemberId)) {
+            var url = "/CustomerModule/InspectionRecord/Form?MemberId=" + MemberId;
+            openDialog(url, "Form", "新增检查记录", 500, 430, function (iframe) {
+                top.frames[iframe].AcceptClick()
+            });
+        }
+    }
+    //调理
+    function btn_condition() {
+        var MemberId = GetJqGridRowValue("#gridTable", "id");
+        if (IsChecked(MemberId)) {
+            var url = "/CustomerModule/ConditioningRecords/Form?MemberId=" + MemberId;
+            openDialog(url, "Form", "新增调理记录", 500, 430, function (iframe) {
+                top.frames[iframe].AcceptClick()
+            });
+        }
+    }
+
+    //刷新
+    function windowload() {
+        $("#gridTable").trigger("reloadGrid"); //重新载入
+
+    }
+</script>
+<!--工具栏-->
+<div class="tools_bar leftline rightline" style="margin: 1px; margin-bottom: 0px;">
+    <div class="PartialButton">
+        @Html.Partial("_PartialButton")
+    </div>
+</div>
+<div class="leftline rightline QueryArea" style="margin: 1px; margin-top: 0px; margin-bottom: 0px;">
+    <table border="0" class="form-find" style="height: 45px;">
+        <tr>
+            <th>姓名：</th>
+            <td>
+                <input id="strname" type="text" class="txt" style="width: 80px" />
+            </td>
+            <th>性别：</th>
+            <td>
+                <input id="strsex" type="text" class="txt" style="width: 80px" />
+            </td>
+            <th>年龄：</th>
+            <td>
+                <input id="strage" type="text" class="txt" style="width: 80px" />
+            </td>
+        </tr>
+        <tr>
+            <th>电话：</th>
+            <td>
+                <input id="strtel" type="text" class="txt" style="width: 80px" />
+            </td>
+            <th>职业：</th>
+            <td>
+                <input id="strprofession" type="text" class="txt" style="width: 80px" />
+            </td>
+            <th>病种：</th>
+            <td>
+                <input id="strdisease" type="text" class="txt" style="width: 80px" />
+            </td>
+            <th>关键字：</th>
+            <td colspan="3">
+                <input id="keywords" type="text" class="txt" style="width: 150px" />
+            </td>
+            <td>
+                <input id="btnSearch" type="button" class="btnSearch" value="搜 索" onclick="btn_Search()" />
+                <input id="btnClear" type="button" class="btnSearch" value="清 空" onclick="btn_Clear()" />
+            </td>
+        </tr>
+    </table>
+</div>
+<div class="topline rightline" style="margin: 1px; margin-top: -1px;">
+    <table id="gridTable"></table>
+    <div id="gridPager"></div>
+</div>

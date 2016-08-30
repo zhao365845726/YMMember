@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>诊断记录</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link href="Content/Style/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/Style/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <script src="Content/Script/jquery-1.9.1.min.js"></script>
+    <script src="Content/Script/member.js"></script>
+    <style>
+        #main {
+            padding-top: 70px;
+            left: 10px;
+        }
+    </style>
+    <script>
+        $(function () {
+            returnInspection();
+
+            $("#btnBack").click(function () {
+                location.href = "inspectionList.html";
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <p class="navbar-text text-center">
+                <b>诊断记录</b>
+                <span id="btnBack" class="glyphicon glyphicon-chevron-left" style="float:left;"></span>
+            </p>
+        </div>
+    </nav>
+    <div id="main" class="container">
+        <div class="panel panel-warning">
+            <div class="panel-heading">检查记录：</div>
+            <div class="panel-body">
+                <div class="panel-body">
+                    血压：<span id="BloodPressure"></span>
+                </div>
+                <div class="panel-body">
+                    血糖：<span id="BloodSugar"></span>
+                </div>
+                <div class="panel-body">
+                    血脂：<span id="BloodFat"></span>
+                </div>
+                <div class="panel-body">
+                    血常规：<span id="RoutineBloodTest"></span>
+                </div>
+                <div class="panel-body">
+                    尿常规：<span id="UrineRoutine"></span>
+                </div>
+                <div class="panel-body">
+                    血型：<span id="BloodType"></span>
+                </div>
+                <div class="panel-body">
+                    肝功能：<span id="LiverFunction"></span>
+                </div>
+                <div class="panel-body">
+                    肾功能：<span id="RenalFunction"></span>
+                </div>
+                <div class="panel-body">
+                    腹部B超：<span id="AbdomenUltrasonography"></span>
+                </div>
+                <div class="panel-body">
+                    心电图：<span id="Electrocardiogram"></span>
+                </div>
+                <div class="panel-body">
+                    微量元素：<span id="TraceElement"></span>
+                </div>
+                <div class="panel-body">
+                    附件：<span id="Enclosure"></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

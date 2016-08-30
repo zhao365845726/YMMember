@@ -1,0 +1,103 @@
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Resource\bin\Debug\LeaRun.Resource.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Resource\bin\Debug\LeaRun.Resource.pdb
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Resource\bin\Debug\zh-CN\LeaRun.Resource.resources.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Resource\bin\Debug\zh-TW\LeaRun.Resource.resources.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Resource\obj\Debug\LeaRun.Resource.CommonResource.resources
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Resource\obj\Debug\LeaRun.Resource.CommonResource.zh-CN.resources
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Resource\obj\Debug\LeaRun.Resource.CommonResource.zh-TW.resources
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Resource\obj\Debug\LeaRun.Resource.csproj.GenerateResource.Cache
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Resource\obj\Debug\zh-CN\LeaRun.Resource.resources.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Resource\obj\Debug\zh-TW\LeaRun.Resource.resources.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Resource\obj\Debug\LeaRun.Resource.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Resource\obj\Debug\LeaRun.Resource.pdb
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Resource\obj\Debug\LeaRun.Resource.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Resource\bin\Debug\LeaRun.Resource.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Resource\bin\Debug\LeaRun.Resource.pdb
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Resource\bin\Debug\zh-CN\LeaRun.Resource.resources.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Resource\bin\Debug\zh-TW\LeaRun.Resource.resources.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Resource\obj\Debug\LeaRun.Resource.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Resource\obj\Debug\LeaRun.Resource.CommonResource.resources
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Resource\obj\Debug\LeaRun.Resource.CommonResource.zh-CN.resources
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Resource\obj\Debug\LeaRun.Resource.CommonResource.zh-TW.resources
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Resource\obj\Debug\LeaRun.Resource.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Resource\obj\Debug\zh-CN\LeaRun.Resource.resources.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Resource\obj\Debug\zh-TW\LeaRun.Resource.resources.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Resource\obj\Debug\LeaRun.Resource.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.Resource\obj\Debug\LeaRun.Resource.pdb
+F:\YMStudioWorking\YMTechnology\LeaRun.Resource\bin\Debug\LeaRun.Resource.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Resource\bin\Debug\LeaRun.Resource.pdb
+F:\YMStudioWorking\YMTechnology\LeaRun.Resource\bin\Debug\zh-CN\LeaRun.Resource.resources.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Resource\bin\Debug\zh-TW\LeaRun.Resource.resources.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Resource\obj\Debug\LeaRun.Resource.CommonResource.resources
+F:\YMStudioWorking\YMTechnology\LeaRun.Resource\obj\Debug\LeaRun.Resource.CommonResource.zh-CN.resources
+F:\YMStudioWorking\YMTechnology\LeaRun.Resource\obj\Debug\LeaRun.Resource.CommonResource.zh-TW.resources
+F:\YMStudioWorking\YMTechnology\LeaRun.Resource\obj\Debug\LeaRun.Resource.csproj.GenerateResource.Cache
+F:\YMStudioWorking\YMTechnology\LeaRun.Resource\obj\Debug\zh-CN\LeaRun.Resource.resources.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Resource\obj\Debug\zh-TW\LeaRun.Resource.resources.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Resource\obj\Debug\LeaRun.Resource.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Resource\obj\Debug\LeaRun.Resource.pdb
+F:\YMStudioWorking\YMTechnology\LeaRun.Resource\obj\Debug\LeaRun.Resource.csprojResolveAssemblyReference.cache
+F:\YMStudioWorking\YMMember\LeaRun.Resource\bin\Debug\LeaRun.Resource.dll
+F:\YMStudioWorking\YMMember\LeaRun.Resource\bin\Debug\LeaRun.Resource.pdb
+F:\YMStudioWorking\YMMember\LeaRun.Resource\bin\Debug\zh-CN\LeaRun.Resource.resources.dll
+F:\YMStudioWorking\YMMember\LeaRun.Resource\bin\Debug\zh-TW\LeaRun.Resource.resources.dll
+F:\YMStudioWorking\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.CommonResource.resources
+F:\YMStudioWorking\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.CommonResource.zh-CN.resources
+F:\YMStudioWorking\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.CommonResource.zh-TW.resources
+F:\YMStudioWorking\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.csproj.GenerateResource.Cache
+F:\YMStudioWorking\YMMember\LeaRun.Resource\obj\Debug\zh-CN\LeaRun.Resource.resources.dll
+F:\YMStudioWorking\YMMember\LeaRun.Resource\obj\Debug\zh-TW\LeaRun.Resource.resources.dll
+F:\YMStudioWorking\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.dll
+F:\YMStudioWorking\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.pdb
+F:\YMStudioWorking\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.csprojResolveAssemblyReference.cache
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Resource\bin\Debug\LeaRun.Resource.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Resource\bin\Debug\LeaRun.Resource.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Resource\bin\Debug\zh-CN\LeaRun.Resource.resources.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Resource\bin\Debug\zh-TW\LeaRun.Resource.resources.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.csprojResolveAssemblyReference.cache
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.CommonResource.resources
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.CommonResource.zh-CN.resources
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.CommonResource.zh-TW.resources
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.csproj.GenerateResource.Cache
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Resource\obj\Debug\zh-CN\LeaRun.Resource.resources.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Resource\obj\Debug\zh-TW\LeaRun.Resource.resources.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Resource\bin\Debug\LeaRun.Resource.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Resource\bin\Debug\LeaRun.Resource.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Resource\bin\Debug\zh-CN\LeaRun.Resource.resources.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Resource\bin\Debug\zh-TW\LeaRun.Resource.resources.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.CommonResource.resources
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.CommonResource.zh-CN.resources
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.CommonResource.zh-TW.resources
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.csproj.GenerateResource.Cache
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Resource\obj\Debug\zh-CN\LeaRun.Resource.resources.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Resource\obj\Debug\zh-TW\LeaRun.Resource.resources.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.pdb
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\bin\Debug\LeaRun.Resource.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\bin\Debug\LeaRun.Resource.pdb
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\bin\Debug\zh-CN\LeaRun.Resource.resources.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\bin\Debug\zh-TW\LeaRun.Resource.resources.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.csprojResolveAssemblyReference.cache
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.CommonResource.resources
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.CommonResource.zh-CN.resources
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.CommonResource.zh-TW.resources
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.csproj.GenerateResource.Cache
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\obj\Debug\zh-CN\LeaRun.Resource.resources.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\obj\Debug\zh-TW\LeaRun.Resource.resources.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.pdb
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\bin\Debug\LeaRun.Resource.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\bin\Debug\LeaRun.Resource.pdb
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\bin\Debug\zh-CN\LeaRun.Resource.resources.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\bin\Debug\zh-TW\LeaRun.Resource.resources.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.CommonResource.resources
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.CommonResource.zh-CN.resources
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.CommonResource.zh-TW.resources
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.csproj.GenerateResource.Cache
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\obj\Debug\zh-CN\LeaRun.Resource.resources.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\obj\Debug\zh-TW\LeaRun.Resource.resources.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.pdb
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Resource\obj\Debug\LeaRun.Resource.csprojResolveAssemblyReference.cache

@@ -1,0 +1,11 @@
+﻿curl "http://localhost:49559/3a46f4a5871f4e7299f0938b8f5a5b11/arterySignalR/poll?transport=longPolling&connectionToken
+
+
+System
+mz19881023..
+
+admin
+ABD123456.0.
+
+zhugeliang
+a123456*.0

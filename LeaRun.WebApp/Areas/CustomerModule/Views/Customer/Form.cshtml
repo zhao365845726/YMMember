@@ -1,0 +1,98 @@
+@{
+    ViewBag.Title = "客源表》表单页面";
+    Layout = "~/Views/Shared/_LayoutForm.cshtml";
+}
+<script type="text/javascript">
+    var KeyValue = GetQuery('KeyValue');//主键
+    $(function () {
+        InitControl();
+        BindCombobox();
+    })
+    //初始化绑定下拉框
+    function BindCombobox() {
+        //性别
+        BindDropItem("#Sex", "SexCategory", "==请选择==");
+    }
+
+    //得到一个对象实体
+    function InitControl() {
+        if (!!GetQuery('KeyValue')) {
+            AjaxJson("/CustomerModule/Customer/SetForm", { KeyValue: KeyValue }, function (data) {
+                SetWebControls(data);
+            });
+        }
+    }
+    //保存事件
+    function AcceptClick() {
+        if (!CheckDataValid('#form1')) {
+            return false;
+        }
+        var postData = GetWebControls("#form1");
+        AjaxJson("/CustomerModule/Customer/SubmitForm?KeyValue=" + KeyValue, postData, function (data) {
+            tipDialog(data.Message, 3, data.Code);
+            top.frames[tabiframeId()].windowload();
+            closeDialog();
+        });
+    }
+</script>
+<form id="form1" style="margin: 1px">
+    <div id="message" style="display: none"></div>
+    <table class="form">
+        <tr>
+            <th class='formTitle'>姓名：</th>
+            <td class='formValue'>
+                <input id="Name" maxlength=20 type="text" class="txt" datacol="yes" err="姓名" checkexpession="NotNull"  />
+            </td>
+        </tr>
+        <tr>
+            <th class='formTitle'>年龄：</th>
+            <td class='formValue'>
+                <input id="Age" maxlength=10 type="text" class="txt" datacol="yes" err="年龄" checkexpession="Num"  />
+            </td>
+        </tr>
+        <tr>
+            <th class='formTitle'>性别：</th>
+            <td class='formValue'>
+                <select id="Sex"class="txtselect" datacol="yes" err="性别" checkexpession="NotNull" ></select>
+            </td>
+        </tr>
+        <tr>
+            <th class='formTitle'>手机号：</th>
+            <td class='formValue'>
+                <input id="Tel" maxlength=11 type="text" class="txt" datacol="yes" err="手机号" checkexpession="NotNull"  />
+            </td>
+        </tr>
+        <tr>
+            <th class='formTitle'>生日：</th>
+            <td class='formValue'>
+                <input id="Birthday" type="text" class="txt Wdate" onfocus="WdatePicker({maxDate:'%y-%M-%d'})" />
+            </td>
+        </tr>
+        <tr>
+            <th class='formTitle'>邮箱：</th>
+            <td class='formValue'>
+                <input id="Email" type="text" class="txt" datacol="yes" err="邮箱" checkexpession="NotNull" />
+            </td>
+        </tr>
+        <tr>
+            <th class='formTitle'>QQ号：</th>
+            <td class='formValue'>
+                <input id="QQ" type="text" class="txt" datacol="yes" err="QQ号" checkexpession="NotNull" />
+            </td>
+        </tr>
+        <tr>
+            <th class='formTitle'>身份证号：</th>
+            <td class='formValue'>
+                <input id="IDCardNumber" maxlength=18 type="text" class="txt" datacol="yes" err="身份证号" checkexpession="NotNull"  />
+            </td>
+        </tr>
+        <tr>
+            <th class='formTitle'>备注：</th>
+            <td class='formValue'>
+                <input id="Remark" maxlength=200 type="text" class="txt"   />
+            </td>
+        </tr>
+        <tr>
+        </tr>
+    </table>
+</form>

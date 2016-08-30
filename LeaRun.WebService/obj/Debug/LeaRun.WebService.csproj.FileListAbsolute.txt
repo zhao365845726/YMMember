@@ -1,0 +1,223 @@
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.WebService.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.WebService.pdb
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.WebService\obj\Debug\LeaRun.WebService.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.WebService\obj\Debug\LeaRun.WebService.pdb
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.DataAccess.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.Utilities.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.WebService\bin\log4net.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.WebService\bin\Oracle.DataAccess.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.WebService\bin\MySql.Data.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.WebService\bin\System.Data.SQLite.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.WebService\bin\SharpZipLib.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.WebService\bin\Newtonsoft.Json.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.DataAccess.pdb
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.Utilities.pdb
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.WebService\obj\Debug\LeaRun.WebService.csprojResolveAssemblyReference.cache
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.Business.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.Entity.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.Repository.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.WebService\bin\EntityFramework.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.Business.pdb
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.Entity.pdb
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.Repository.pdb
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.Cache.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.Cache.pdb
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.WebService.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.WebService.pdb
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.Business.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.DataAccess.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.Entity.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.Repository.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.Utilities.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.Cache.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.WebService\bin\log4net.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.WebService\bin\Oracle.DataAccess.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.WebService\bin\MySql.Data.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.WebService\bin\System.Data.SQLite.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.WebService\bin\EntityFramework.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.WebService\bin\SharpZipLib.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.WebService\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.Business.pdb
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.DataAccess.pdb
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.Entity.pdb
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.Repository.pdb
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.Utilities.pdb
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.WebService\bin\LeaRun.Cache.pdb
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.WebService\obj\Debug\LeaRun.WebService.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.WebService\obj\Debug\LeaRun.WebService.dll
+C:\Users\Administrator\Desktop\LeaRun.Framework V4.1\LeaRun.WebService\obj\Debug\LeaRun.WebService.pdb
+F:\YMStudioWorking\YMTechnology\LeaRun.WebService\bin\LeaRun.WebService.dll.config
+F:\YMStudioWorking\YMTechnology\LeaRun.WebService\bin\LeaRun.WebService.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.WebService\bin\LeaRun.WebService.pdb
+F:\YMStudioWorking\YMTechnology\LeaRun.WebService\bin\LeaRun.Business.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.WebService\bin\LeaRun.DataAccess.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.WebService\bin\LeaRun.Entity.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.WebService\bin\LeaRun.Repository.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.WebService\bin\LeaRun.Utilities.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.WebService\bin\LeaRun.Cache.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.WebService\bin\log4net.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.WebService\bin\Oracle.DataAccess.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.WebService\bin\MySql.Data.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.WebService\bin\System.Data.SQLite.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.WebService\bin\EntityFramework.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.WebService\bin\SharpZipLib.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.WebService\bin\Newtonsoft.Json.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.WebService\bin\LeaRun.Business.pdb
+F:\YMStudioWorking\YMTechnology\LeaRun.WebService\bin\LeaRun.DataAccess.pdb
+F:\YMStudioWorking\YMTechnology\LeaRun.WebService\bin\LeaRun.Entity.pdb
+F:\YMStudioWorking\YMTechnology\LeaRun.WebService\bin\LeaRun.Repository.pdb
+F:\YMStudioWorking\YMTechnology\LeaRun.WebService\bin\LeaRun.Utilities.pdb
+F:\YMStudioWorking\YMTechnology\LeaRun.WebService\bin\LeaRun.Cache.pdb
+F:\YMStudioWorking\YMTechnology\LeaRun.WebService\obj\Debug\LeaRun.WebService.csprojResolveAssemblyReference.cache
+F:\YMStudioWorking\YMTechnology\LeaRun.WebService\obj\Debug\LeaRun.WebService.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.WebService\obj\Debug\LeaRun.WebService.pdb
+F:\YMStudioWorking\YMMember\LeaRun.WebService\bin\LeaRun.WebService.dll.config
+F:\YMStudioWorking\YMMember\LeaRun.WebService\bin\LeaRun.WebService.dll
+F:\YMStudioWorking\YMMember\LeaRun.WebService\bin\LeaRun.WebService.pdb
+F:\YMStudioWorking\YMMember\LeaRun.WebService\bin\LeaRun.Business.dll
+F:\YMStudioWorking\YMMember\LeaRun.WebService\bin\LeaRun.DataAccess.dll
+F:\YMStudioWorking\YMMember\LeaRun.WebService\bin\LeaRun.Entity.dll
+F:\YMStudioWorking\YMMember\LeaRun.WebService\bin\LeaRun.Repository.dll
+F:\YMStudioWorking\YMMember\LeaRun.WebService\bin\LeaRun.Utilities.dll
+F:\YMStudioWorking\YMMember\LeaRun.WebService\bin\LeaRun.Cache.dll
+F:\YMStudioWorking\YMMember\LeaRun.WebService\bin\log4net.dll
+F:\YMStudioWorking\YMMember\LeaRun.WebService\bin\Oracle.DataAccess.dll
+F:\YMStudioWorking\YMMember\LeaRun.WebService\bin\MySql.Data.dll
+F:\YMStudioWorking\YMMember\LeaRun.WebService\bin\System.Data.SQLite.dll
+F:\YMStudioWorking\YMMember\LeaRun.WebService\bin\EntityFramework.dll
+F:\YMStudioWorking\YMMember\LeaRun.WebService\bin\SharpZipLib.dll
+F:\YMStudioWorking\YMMember\LeaRun.WebService\bin\Newtonsoft.Json.dll
+F:\YMStudioWorking\YMMember\LeaRun.WebService\bin\LeaRun.Business.pdb
+F:\YMStudioWorking\YMMember\LeaRun.WebService\bin\LeaRun.DataAccess.pdb
+F:\YMStudioWorking\YMMember\LeaRun.WebService\bin\LeaRun.Entity.pdb
+F:\YMStudioWorking\YMMember\LeaRun.WebService\bin\LeaRun.Repository.pdb
+F:\YMStudioWorking\YMMember\LeaRun.WebService\bin\LeaRun.Utilities.pdb
+F:\YMStudioWorking\YMMember\LeaRun.WebService\bin\LeaRun.Cache.pdb
+F:\YMStudioWorking\YMMember\LeaRun.WebService\obj\Debug\LeaRun.WebService.csprojResolveAssemblyReference.cache
+F:\YMStudioWorking\YMMember\LeaRun.WebService\obj\Debug\LeaRun.WebService.dll
+F:\YMStudioWorking\YMMember\LeaRun.WebService\obj\Debug\LeaRun.WebService.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.WebService\bin\LeaRun.WebService.dll.config
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.WebService\bin\LeaRun.WebService.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.WebService\bin\LeaRun.WebService.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.WebService\bin\LeaRun.Business.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.WebService\bin\LeaRun.DataAccess.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.WebService\bin\LeaRun.Entity.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.WebService\bin\LeaRun.Repository.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.WebService\bin\LeaRun.Utilities.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.WebService\bin\LeaRun.Cache.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.WebService\bin\log4net.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.WebService\bin\Oracle.DataAccess.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.WebService\bin\MySql.Data.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.WebService\bin\System.Data.SQLite.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.WebService\bin\EntityFramework.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.WebService\bin\SharpZipLib.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.WebService\bin\Newtonsoft.Json.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.WebService\bin\LeaRun.Business.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.WebService\bin\LeaRun.DataAccess.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.WebService\bin\LeaRun.Entity.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.WebService\bin\LeaRun.Repository.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.WebService\bin\LeaRun.Utilities.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.WebService\bin\LeaRun.Cache.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.WebService\obj\Debug\LeaRun.WebService.csprojResolveAssemblyReference.cache
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.WebService\obj\Debug\LeaRun.WebService.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.WebService\obj\Debug\LeaRun.WebService.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.WebService\bin\LeaRun.WebService.dll.config
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.WebService\bin\LeaRun.WebService.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.WebService\bin\LeaRun.WebService.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.WebService\bin\LeaRun.Business.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.WebService\bin\LeaRun.DataAccess.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.WebService\bin\LeaRun.Entity.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.WebService\bin\LeaRun.Repository.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.WebService\bin\LeaRun.Utilities.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.WebService\bin\LeaRun.Cache.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.WebService\bin\log4net.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.WebService\bin\Oracle.DataAccess.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.WebService\bin\MySql.Data.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.WebService\bin\System.Data.SQLite.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.WebService\bin\EntityFramework.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.WebService\bin\SharpZipLib.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.WebService\bin\Newtonsoft.Json.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.WebService\bin\LeaRun.Business.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.WebService\bin\LeaRun.DataAccess.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.WebService\bin\LeaRun.Entity.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.WebService\bin\LeaRun.Repository.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.WebService\bin\LeaRun.Utilities.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.WebService\bin\LeaRun.Cache.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.WebService\obj\Debug\LeaRun.WebService.csprojResolveAssemblyReference.cache
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.WebService\obj\Debug\LeaRun.WebService.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\YMMember\LeaRun.WebService\obj\Debug\LeaRun.WebService.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.WebService\bin\LeaRun.WebService.dll.config
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.WebService\bin\LeaRun.WebService.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.WebService\bin\LeaRun.WebService.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.WebService\bin\LeaRun.Business.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.WebService\bin\LeaRun.DataAccess.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.WebService\bin\LeaRun.Entity.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.WebService\bin\LeaRun.Repository.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.WebService\bin\LeaRun.Utilities.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.WebService\bin\LeaRun.Cache.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.WebService\bin\log4net.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.WebService\bin\Oracle.DataAccess.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.WebService\bin\MySql.Data.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.WebService\bin\System.Data.SQLite.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.WebService\bin\EntityFramework.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.WebService\bin\SharpZipLib.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.WebService\bin\Newtonsoft.Json.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.WebService\bin\LeaRun.Business.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.WebService\bin\LeaRun.DataAccess.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.WebService\bin\LeaRun.Entity.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.WebService\bin\LeaRun.Repository.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.WebService\bin\LeaRun.Utilities.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.WebService\bin\LeaRun.Cache.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.WebService\obj\Debug\LeaRun.WebService.csprojResolveAssemblyReference.cache
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.WebService\obj\Debug\LeaRun.WebService.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.WebService\obj\Debug\LeaRun.WebService.pdb
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.WebService.dll.config
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.WebService.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.WebService.pdb
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.Business.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.DataAccess.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.Entity.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.Repository.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.Utilities.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.Cache.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\log4net.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\Oracle.DataAccess.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\MySql.Data.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\System.Data.SQLite.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\EntityFramework.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\SharpZipLib.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\Newtonsoft.Json.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.Business.pdb
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.DataAccess.pdb
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.Entity.pdb
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.Repository.pdb
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.Utilities.pdb
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.Cache.pdb
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\obj\Debug\LeaRun.WebService.csprojResolveAssemblyReference.cache
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\obj\Debug\LeaRun.WebService.dll
+F:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\obj\Debug\LeaRun.WebService.pdb
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.WebService.dll.config
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.WebService.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.WebService.pdb
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.Business.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.DataAccess.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.Entity.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.Repository.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.Utilities.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.Cache.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\log4net.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\Oracle.DataAccess.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\MySql.Data.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\System.Data.SQLite.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\EntityFramework.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\SharpZipLib.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\Newtonsoft.Json.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.Business.pdb
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.DataAccess.pdb
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.Entity.pdb
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.Repository.pdb
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.Utilities.pdb
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\bin\LeaRun.Cache.pdb
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\obj\Debug\LeaRun.WebService.csprojResolveAssemblyReference.cache
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\obj\Debug\LeaRun.WebService.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.WebService\obj\Debug\LeaRun.WebService.pdb

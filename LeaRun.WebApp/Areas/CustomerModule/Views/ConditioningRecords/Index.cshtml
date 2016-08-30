@@ -1,0 +1,104 @@
+@{
+    ViewBag.Title = "调理记录";
+    Layout = "~/Views/Shared/_LayoutIndex.cshtml";
+}
+<script type="text/javascript">
+    $(function () {
+        GetGrid();
+    })
+    //加载表格
+    function GetGrid() {
+        $("#gridTable").jqGrid({
+        url: "@Url.Content("~/CustomerModule/ConditioningRecords/GridPageJson")",
+        datatype: "json",
+        height: $(window).height() - 149,
+        autowidth: true,
+        colModel: [
+                { label: '调理ID', name: 'ID', index: 'ID', width: 0, align: 'left',sortable: true ,hidden: true },
+                { label: '会员ID', name: 'MemberId', index: 'MemberId', width: 0, align: 'left',sortable: true ,hidden: true },
+                { label: '处方类型', name: 'PrescriptionType', index: 'PrescriptionType', width: 80, align: 'center',sortable: true  },
+                { label: '处方内容', name: 'PrescriptionContent', index: 'PrescriptionContent', width: 0, align: 'left',sortable: true  },
+                { label: '调理师类型', name: 'CulinarianType', index: 'CulinarianType', width: 80, align: 'center',sortable: true  },
+                { label: '调理结果', name: 'ConditioningResult', index: 'ConditioningResult', width: 0, align: 'left', sortable: true },
+                { label: '附件', name: 'Enclosure', index: 'Enclosure', width: 700, align: 'left', sortable: true },
+                { label: '排序', name: 'Sort', index: 'Sort', width: 0, align: 'center',sortable: true,hidden:true  },
+                { label: '创建时间', name: 'CreateTime', index: 'CreateTime', width: 0, align: 'left',sortable: true ,hidden: true },
+                { label: '创建人ID', name: 'CreatePersonId', index: 'CreatePersonId', width: 0, align: 'left',sortable: true ,hidden: true },
+                { label: '创建人', name: 'CreatePerson', index: 'CreatePerson', width: 0, align: 'left',sortable: true ,hidden: true },
+                { label: '更新时间', name: 'UpdateTime', index: 'UpdateTime', width: 0, align: 'left',sortable: true ,hidden: true },
+                { label: '更新人ID', name: 'UpdatePersonId', index: 'UpdatePersonId', width: 0, align: 'left',sortable: true ,hidden: true },
+                { label: '更新人', name: 'UpdatePerson', index: 'UpdatePerson', width: 0, align: 'left',sortable: true ,hidden: true },
+                { label: '删除标记', name: 'DeleteMark', index: 'DeleteMark', width: 0, align: 'left',sortable: true ,hidden: true },
+        ],
+        pager: "#gridPager",
+        sortname: '',
+        sortorder: 'desc',
+        rownumbers: true,
+        shrinkToFit: false,
+        gridview: true,
+    });
+}
+    //新增
+    function btn_add() {
+        var url = "/CustomerModule/ConditioningRecords/Form"
+        openDialog(url, "Form", "新增调理记录", 500, 430, function (iframe) {
+            top.frames[iframe].AcceptClick()
+        });
+    }
+    //编辑
+    function btn_edit() {
+        var KeyValue = GetJqGridRowValue("#gridTable", "ID");
+        if (IsChecked(KeyValue)) {
+            var url = "/CustomerModule/ConditioningRecords/Form?KeyValue=" + KeyValue;
+            openDialog(url, "Form", "编辑调理记录", 500, 430, function (iframe) {
+                top.frames[iframe].AcceptClick();
+            });
+        }
+    }
+    //删除
+    function btn_delete() {
+        var KeyValue = GetJqGridRowValue("#gridTable", "ID");
+        if (IsDelData(KeyValue)) {
+            var delparm = 'KeyValue=' + KeyValue;
+            delConfig('/CustomerModule/ConditioningRecords/Delete', delparm, KeyValue.split(",").length);
+        }
+    }
+    //明细
+    function btn_detail() {
+        var KeyValue = GetJqGridRowValue("#gridTable", "ID");
+        if (IsChecked(KeyValue)) {
+            var url = "/CustomerModule/ConditioningRecords/Detail?KeyValue=" + KeyValue;
+            Dialog(url, "Detail", "调理记录明细", 500, 500, function (iframe) {
+                top.frames[iframe].AcceptClick();
+            });
+        }
+    }
+    //刷新
+    function windowload() {
+        $("#gridTable").trigger("reloadGrid"); //重新载入
+        
+    }
+</script>
+<!--工具栏-->
+<div class="tools_bar leftline rightline" style="margin: 1px; margin-bottom: 0px;">
+    <div class="PartialButton">
+        @Html.Partial("_PartialButton")
+    </div>
+</div>
+@*<div class="leftline rightline QueryArea" style="margin: 1px; margin-top: 0px; margin-bottom: 0px;">
+    <table border="0" class="form-find" style="height: 45px;">
+        <tr>
+            <th>关键字：</th>
+            <td>
+                <input id="keywords" type="text" class="txt" style="width: 200px" />
+            </td>
+            <td>
+                <input id="btnSearch" type="button" class="btnSearch" value="搜 索" onclick="btn_Search()" />
+            </td>
+        </tr>
+    </table>
+</div>*@
+<div class="topline rightline" style="margin: 1px; margin-top: -1px;">
+    <table id="gridTable"></table>
+    <div id="gridPager"></div>
+</div>

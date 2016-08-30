@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewBag.Title = "健康高平•平安堂";
+    ViewBag.Tel = "手机号";
+    Layout = "~/Views/Shared/_LayoutMember.cshtml";
+}
+
+@Scripts.Render("~/bundles/jquery")
+
+<style>
+    #loginForm{margin-top:25px;}
+</style>
+<script>
+    $(document).ready(function () {
+        var sign = true;
+
+        $("#btnLogin").click(function () {
+
+            if ($("#InputTel").val() == "") {
+                alert("请输入电话号码");
+                sign = false;
+            }
+            if ($("#InputPassword").val() == "" && sign == true) {
+                alert("请输入密码");
+                sign = false;
+            }
+            if (sign == true) {
+                $("#loginForm").submit();
+            }
+        });
+    });
+</script>
+
+@using (Html.BeginForm("Login", "Default", FormMethod.Post,new {id="loginForm",name="loginForm" }))
+{
+    <div class="form-group">
+        <div class="input-group">
+            <span class="input-group-addon">手机</span>
+            <input type="text" id="InputTel" name="InputTel" class="form-control" placeholder="手机">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="input-group">
+            <span class="input-group-addon">密码</span>
+            <input type="password" id="InputPassword" name="InputPassword" class="form-control" placeholder="密码">
+        </div>
+    </div>
+
+    <div class="row" style="margin-top:20px;">
+        <div class="col-xs-12 col-md-12 col-lg-12">
+            <button type="submit" id="btnLogin" name="btnLogin" class="col-xs-12 col-md-12 col-lg-12 btn btn-default">登录</button>
+        </div>
+    </div>
+}
+
+<hr />
+@TempData["msg"]
+

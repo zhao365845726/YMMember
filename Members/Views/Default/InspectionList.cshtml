@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "诊断记录";
+    Layout = "~/Views/Shared/_LayoutMember.cshtml";
+}
+
+@Scripts.Render("~/bundles/jquery")
+
+<script>
+    $(function () {
+        $("#btnQuickOperation").removeClass("hidden");
+        $("#bs-example-navbar-collapse-1").removeClass("hidden");
+    });
+</script>
+
+<div id="main" class="container">
+    <script>
+        $.ajax({
+            url:"@Url.Action("InspectionResult", "Default")" + "/@TempData["ID"]",
+            success:function(result){
+                console.log(result);
+                //var str="<ul class='list-group' id='lstInspection'>";
+                //if (result.length>0)
+                //{
+                //    for(i=0;i<result.length;i++)
+                //    {
+                //        str +="<li id='" + result[i].ID + 
+                //            "' class='list-group-item' onclick=JumpCondition(this.id)><span class='glyphicon glyphicon-chevron-right' style='float:right;'></span>" + 
+                //            result[i].CreateTime + "&nbsp;&nbsp;调理记录</li>";
+                //    }
+                //}
+                //str = str + "</ul>";
+                //$("#main").html(str);
+            },
+            //beforeSend: function () {
+            //    $("#area_house_loading_div").fadeOut(2000);
+            //    $("#area_house_div").hide();
+            //}
+        });
+    </script>
+    @*<ul class="list-group" id="lstInspection"></ul>*@
+</div>
+

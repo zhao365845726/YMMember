@@ -1,0 +1,865 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>九型体质</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="Content/css/bootstrap.min.css">
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="Content/css/bootstrap-theme.min.css">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="Content/js/jquery-1.9.1.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="Content/js/bootstrap.min.js"></script>
+    <script src="Content/js/main.js"></script>
+    <style>
+        body{font-family:'Microsoft YaHei'}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center">九型体质</h2>
+    </div>
+    <div class="container">
+        <div class="panel panel-primary">
+            <div class="panel-heading" id="const1">阳虚</div>
+            <div class="panel-body">
+                <div class="panel panel-default">
+                    <div class="panel-heading">1.你手脚凉么？（尤其是冬天）</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios11" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios11" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">2.你胃脘部，背部或腰膝部怕冷么？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios12" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios12" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">3.你感到怕冷，衣服穿得比别人多？（尤其是冬天）</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios13" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios13" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">4.你比别人容易患感冒么？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios14" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios14" id="optionsRadios1" value="1">
+                                很少
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios14" id="optionsRadios1" value="2">
+                                有时
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios14" id="optionsRadios1" value="3">
+                                经常
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios14" id="optionsRadios1" value="4">
+                                总是
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">5.你吃（喝）凉的东西会感到不舒服或怕吃（喝）凉东西呢么？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios15" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios15" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="panel panel-primary">
+            <div class="panel-heading" id="const2">阴虚</div>
+            <div class="panel-body">
+                <div class="panel panel-default">
+                    <div class="panel-heading">1.你感到手脚心发热么，身体，脸上发热么？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios21" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios21" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">2.你口唇颜色比一般人红么，面部俩颧潮红或偏红么？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios22" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios22" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">3.你感到眼睛干涩么？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios23" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios23" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">4.你容易便秘或大便干燥么，或汗少么？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios24" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios24" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">5.你感到口干咽燥总想喝水么、或皮肤口唇干么？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios25" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios25" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-primary">
+            <div class="panel-heading" id="const3">气虚</div>
+            <div class="panel-body">
+                <div class="panel panel-default">
+                    <div class="panel-heading">1.你容易疲乏么，你容易气短（呼吸急促、接不上气）么？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios31" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios31" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">2.你吃饭容易出汗么，或少活动就出汗么？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios32" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios32" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">3.你喜欢安静，懒得说话么，你说话感觉声音无力么？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios33" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios33" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">4.你容易头晕或站起时晕眩么？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios34" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios34" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">5.你容易心慌么？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios35" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios35" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-primary">
+            <div class="panel-heading" id="const4">痰湿</div>
+            <div class="panel-body">
+                <div class="panel panel-default">
+                    <div class="panel-heading">1.你感到身体不轻松或不爽快么，或胸闷么？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios41" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios41" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">2.您平时痰多，特别是咽喉部总感到有痰堵着吗，或您舌苔厚腻或有舌苔厚厚的感觉吗？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios42" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios42" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">3.你有额部油脂分泌多的现象么，或你腹部肥满松软么？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios43" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios43" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">4.总是您上眼睑比别人肿（轻微隆起的现象）吗？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios44" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios44" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">5.您嘴里有黏黏的感觉吗？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios45" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios45" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-primary">
+            <div class="panel-heading" id="const5">湿热</div>
+            <div class="panel-body">
+                <div class="panel panel-default">
+                    <div class="panel-heading">1.您面部或鼻部有油腻感或者油亮发光吗，或你容易生痤疮或疮疖吗？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios51" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios51" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">2.您感到口苦或嘴里有异味吗？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios52" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios52" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">3.您大便黏滞不爽、有解不尽的感觉吗，肛门有烧灼感觉么？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios53" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios53" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">4.您小便时尿道有发热感、尿色浓（深）吗？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios54" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios54" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">5.您的阴囊部位潮湿吗？（经常有黄白带吗）</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios55" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios55" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-primary">
+            <div class="panel-heading" id="const6">血瘀</div>
+            <div class="panel-body">
+                <div class="panel panel-default">
+                    <div class="panel-heading">1.您的皮肤在不知不觉中会出现青紫瘀斑（皮下出血）吗？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios61" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios61" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">2.您两颧部有细微红丝吗，或您面色晦黯或容易出现褐斑吗？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios62" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios62" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">3.您身体上有哪里疼痛吗？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios63" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios63" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">4.您容易有黑眼圈吗？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios64" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios64" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">5.您口唇颜色偏黯吗？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios65" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios65" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-primary">
+            <div class="panel-heading" id="const7">特禀</div>
+            <div class="panel-body">
+                <div class="panel panel-default">
+                    <div class="panel-heading">1.您没有感冒时也会鼻塞、流鼻涕吗？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios71" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios71" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">2.您有因季节变化、温度变化或异味等原因而咳喘的现象吗？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios72" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios72" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">3.您容易过敏（对药物、食物、气味、花粉或在季节交替、气候变化时）吗？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios73" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios73" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">4.您的皮肤容易起荨麻疹（风团、风疹块、风疙瘩）吗？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios74" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios74" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">5.您的皮肤因过敏出现过紫癜（紫红色瘀点、瘀斑）吗？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios75" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios75" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-primary">
+            <div class="panel-heading" id="const8">气郁</div>
+            <div class="panel-body">
+                <div class="panel panel-default">
+                    <div class="panel-heading">1.您感到闷闷不乐吗，或您多愁善感、感情脆弱吗？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios81" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios81" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">2.您容易精神紧张、焦虑不安吗，或您容易感到害怕或受到惊吓吗？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios82" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios82" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">3.您胁肋部或乳房胀痛吗？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios83" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios83" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">4.您咽喉部有异物感，且吐之不出、咽之不下吗？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios84" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios84" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">5.您无缘无故叹气吗？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios85" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios85" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-primary">
+            <div class="panel-heading" id="const9">平和</div>
+            <div class="panel-body">
+                <div class="panel panel-default">
+                    <div class="panel-heading">1.你精神状态好么？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios91" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios91" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">2.你吃饭香么？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios92" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios92" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">3.你大便正常么？一天一次，不干结么？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios93" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios93" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">4.你适应环境快么？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios94" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios94" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">5.你平时疾病少么？</div>
+                    <div class="panel-body">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios95" id="optionsRadios1" value="1">
+                                有
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios95" id="optionsRadios1" value="0">
+                                没有
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button id="btnSubmit" type="button" class="btn btn-primary btn-lg btn-block">提交</button>
+    </div>
+</body>
+</html>

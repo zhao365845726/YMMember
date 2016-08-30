@@ -1,0 +1,35 @@
+@{
+    ViewBag.Title = "测试表》明细页面";
+    Layout = "~/Views/Shared/_LayoutForm.cshtml";
+}
+<script type="text/javascript">
+    var KeyValue = GetQuery('KeyValue');
+    $(function () {
+        InitControl();
+    })
+    //得到一个对象实体
+    function InitControl() {
+        if (!!GetQuery('KeyValue')) {
+            AjaxJson("/CommonModule/TestOne/SetForm", { KeyValue: KeyValue }, function (data) {
+                //console.log(data);
+                SetWebLable(data);
+            });
+        }
+    }
+</script>
+<form id="form1" style="margin: 1px">
+    <table class="form">
+        <tr>
+            <th class='formTitle'>测试名字：</th>
+            <td class='formValue'>
+                <label id="Name" />
+            </td>
+            <th class='formTitle'>测试备注：</th>
+            <td class='formValue'>
+                <label id="Remark" />
+            </td>
+        </tr>
+        <tr>
+        </tr>
+    </table>
+</form>

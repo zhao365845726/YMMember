@@ -1,0 +1,90 @@
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\bin\Release\LeaRun.Repository.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\bin\Release\LeaRun.Repository.pdb
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\bin\Release\LeaRun.DataAccess.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\bin\Release\LeaRun.Utilities.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\bin\Release\log4net.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\bin\Release\Oracle.DataAccess.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\bin\Release\MySql.Data.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\bin\Release\System.Data.SQLite.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\bin\Release\SharpZipLib.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\bin\Release\Newtonsoft.Json.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\bin\Release\LeaRun.DataAccess.pdb
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\bin\Release\LeaRun.Utilities.pdb
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\obj\Release\LeaRun.Repository.csprojResolveAssemblyReference.cache
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\obj\Release\LeaRun.Repository.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\obj\Release\LeaRun.Repository.pdb
+F:\YMStudioWorking\YMTechnology\LeaRun.Repository\bin\Release\LeaRun.Repository.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Repository\bin\Release\LeaRun.Repository.pdb
+F:\YMStudioWorking\YMTechnology\LeaRun.Repository\bin\Release\LeaRun.DataAccess.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Repository\bin\Release\LeaRun.Utilities.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Repository\bin\Release\log4net.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Repository\bin\Release\Oracle.DataAccess.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Repository\bin\Release\MySql.Data.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Repository\bin\Release\System.Data.SQLite.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Repository\bin\Release\SharpZipLib.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Repository\bin\Release\Newtonsoft.Json.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Repository\bin\Release\LeaRun.DataAccess.pdb
+F:\YMStudioWorking\YMTechnology\LeaRun.Repository\bin\Release\LeaRun.Utilities.pdb
+F:\YMStudioWorking\YMTechnology\LeaRun.Repository\obj\Release\LeaRun.Repository.csprojResolveAssemblyReference.cache
+F:\YMStudioWorking\YMTechnology\LeaRun.Repository\obj\Release\LeaRun.Repository.dll
+F:\YMStudioWorking\YMTechnology\LeaRun.Repository\obj\Release\LeaRun.Repository.pdb
+F:\YMStudioWorking\YMMember\LeaRun.Repository\bin\Release\LeaRun.Repository.dll
+F:\YMStudioWorking\YMMember\LeaRun.Repository\bin\Release\LeaRun.Repository.pdb
+F:\YMStudioWorking\YMMember\LeaRun.Repository\bin\Release\LeaRun.DataAccess.dll
+F:\YMStudioWorking\YMMember\LeaRun.Repository\bin\Release\LeaRun.Utilities.dll
+F:\YMStudioWorking\YMMember\LeaRun.Repository\bin\Release\log4net.dll
+F:\YMStudioWorking\YMMember\LeaRun.Repository\bin\Release\Oracle.DataAccess.dll
+F:\YMStudioWorking\YMMember\LeaRun.Repository\bin\Release\MySql.Data.dll
+F:\YMStudioWorking\YMMember\LeaRun.Repository\bin\Release\System.Data.SQLite.dll
+F:\YMStudioWorking\YMMember\LeaRun.Repository\bin\Release\SharpZipLib.dll
+F:\YMStudioWorking\YMMember\LeaRun.Repository\bin\Release\Newtonsoft.Json.dll
+F:\YMStudioWorking\YMMember\LeaRun.Repository\bin\Release\LeaRun.DataAccess.pdb
+F:\YMStudioWorking\YMMember\LeaRun.Repository\bin\Release\LeaRun.Utilities.pdb
+F:\YMStudioWorking\YMMember\LeaRun.Repository\obj\Release\LeaRun.Repository.csprojResolveAssemblyReference.cache
+F:\YMStudioWorking\YMMember\LeaRun.Repository\obj\Release\LeaRun.Repository.dll
+F:\YMStudioWorking\YMMember\LeaRun.Repository\obj\Release\LeaRun.Repository.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Repository\bin\Release\LeaRun.Repository.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Repository\bin\Release\LeaRun.Repository.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Repository\bin\Release\LeaRun.DataAccess.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Repository\bin\Release\LeaRun.Utilities.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Repository\bin\Release\log4net.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Repository\bin\Release\Oracle.DataAccess.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Repository\bin\Release\MySql.Data.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Repository\bin\Release\System.Data.SQLite.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Repository\bin\Release\SharpZipLib.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Repository\bin\Release\Newtonsoft.Json.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Repository\bin\Release\LeaRun.DataAccess.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Repository\bin\Release\LeaRun.Utilities.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Repository\obj\Release\LeaRun.Repository.csprojResolveAssemblyReference.cache
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Repository\obj\Release\LeaRun.Repository.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember\LeaRun.Repository\obj\Release\LeaRun.Repository.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Repository\bin\Release\LeaRun.Repository.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Repository\bin\Release\LeaRun.Repository.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Repository\bin\Release\LeaRun.DataAccess.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Repository\bin\Release\LeaRun.Utilities.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Repository\bin\Release\log4net.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Repository\bin\Release\Oracle.DataAccess.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Repository\bin\Release\MySql.Data.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Repository\bin\Release\System.Data.SQLite.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Repository\bin\Release\SharpZipLib.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Repository\bin\Release\Newtonsoft.Json.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Repository\bin\Release\LeaRun.DataAccess.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Repository\bin\Release\LeaRun.Utilities.pdb
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Repository\obj\Release\LeaRun.Repository.csprojResolveAssemblyReference.cache
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Repository\obj\Release\LeaRun.Repository.dll
+F:\YMStudioWorking\YM-Network-Technology\YMMember333\YMMember\LeaRun.Repository\obj\Release\LeaRun.Repository.pdb
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Repository\bin\Release\LeaRun.Repository.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Repository\bin\Release\LeaRun.Repository.pdb
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Repository\bin\Release\LeaRun.DataAccess.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Repository\bin\Release\LeaRun.Utilities.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Repository\bin\Release\log4net.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Repository\bin\Release\Oracle.DataAccess.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Repository\bin\Release\MySql.Data.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Repository\bin\Release\System.Data.SQLite.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Repository\bin\Release\SharpZipLib.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Repository\bin\Release\Newtonsoft.Json.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Repository\bin\Release\LeaRun.DataAccess.pdb
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Repository\bin\Release\LeaRun.Utilities.pdb
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Repository\obj\Release\LeaRun.Repository.csprojResolveAssemblyReference.cache
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Repository\obj\Release\LeaRun.Repository.dll
+G:\ZHDCSVN-Working\trunk\common\YMMember\LeaRun.Repository\obj\Release\LeaRun.Repository.pdb

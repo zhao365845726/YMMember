@@ -1,0 +1,82 @@
+@{
+    ViewBag.Title = "客源表》明细页面";
+    Layout = "~/Views/Shared/_LayoutForm.cshtml";
+}
+<script type="text/javascript">
+    $(function () {
+        InitControl();
+    })
+    //得到一个对象实体
+    function InitControl() {
+        if (!!GetQuery('KeyValue')) {
+            AjaxJson("/CustomerModule/Customer/SetForm", { KeyValue: GetQuery('KeyValue') }, function (data) {
+                SetWebLable(data);
+            });
+        }
+        
+    }
+</script>
+<form id="form1" style="margin: 1px">
+    <table class="form">
+        <tr>
+            <th class='formTitle'>姓名：</th>
+            <td class='formValue'>
+                <label id="Name" />
+            </td>
+        </tr>
+        <tr>
+            <th class='formTitle'>年龄：</th>
+            <td class='formValue'>
+                <label id="Age" />
+            </td>
+        </tr>
+        <tr>
+            <th class='formTitle'>性别：</th>
+            <td class='formValue'>
+                <label id="Sex" />
+            </td>
+        </tr>
+        <tr>
+            <th class='formTitle'>手机号：</th>
+            <td class='formValue'>
+                <label id="Tel" />
+            </td>
+        </tr>
+        <tr>
+            <th class='formTitle'>生日：</th>
+            <td class='formValue'>
+                <label id="Birthday" />
+            </td>
+        </tr>
+        <tr>
+            <th class='formTitle'>邮箱：</th>
+            <td class='formValue'>
+                <label id="Email" />
+            </td>
+        </tr>
+        <tr>
+            <th class='formTitle'>QQ号：</th>
+            <td class='formValue'>
+                <label id="QQ" />
+            </td>
+        </tr>
+        <tr>
+            <th class='formTitle'>身份证号：</th>
+            <td class='formValue'>
+                <label id="IDCardNumber" />
+            </td>
+        </tr>
+        <tr>
+            <th class='formTitle'>删除标记：</th>
+            <td class='formValue'>
+                <label id="FlagDelete" />
+            </td>
+        </tr>
+        <tr>
+            <th class='formTitle'>备注：</th>
+            <td class='formValue'>
+                <label id="Remark" />
+            </td>
+        </tr>
+    </table>
+</form>
